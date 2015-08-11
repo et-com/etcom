@@ -45,3 +45,25 @@ section h3.section-subheading {
 .talk-btn {
 	margin-top: 15px; 
 }
+
+.navbar-default .navbar-brand {
+	max-height: 60px; 
+	padding: 0; 
+}
+
+.navbar-default .navbar-brand img {
+	padding: 10%;
+	max-height: 100%; 
+}
+
+@media (min-width: 768px) {  
+	.navbar-default .navbar-brand {
+		padding: 0; 
+		width: 50%;
+	}
+	.navbar-default .navbar-brand img {
+		max-height: unset; 
+		padding: 0; 
+	}
+
+}
