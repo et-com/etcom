@@ -65,6 +65,18 @@ section h3.section-subheading {
 	color: #131212;
 }
 
+footer .footer-img {
+	max-width: 190px; 
+}
+
+footer .col-lg-6 {
+	margin-top: 20px; 
+}
+
+.team-members {
+	padding: 10px 0;
+}
+
 @media (min-width: 768px) {  
 	.navbar-default .navbar-brand {
 		padding: 0; 

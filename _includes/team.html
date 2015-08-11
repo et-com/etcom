@@ -9,7 +9,7 @@
                     </h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="team-members row">
                 {% for member in site.data.members %}
                 {% assign loopindex = forloop.index0 | modulo: 4 %}
                 {% if loopindex == 0 %}
