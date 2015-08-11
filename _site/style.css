@@ -920,7 +920,7 @@ body {
 }
 
 .bu-event-date > ul > li:first-child,
-.bu-event-date > ul > li:last-child {
+.bu-event-date > ul > li:nth-child(3) {
 	font-size: 150%; 
 }
 

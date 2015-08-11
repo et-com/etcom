@@ -4,7 +4,6 @@ text: subtitle
 location: Boston, MA
 link: https://github.com/tomhohenstein/studyGroup/issues/1
 date: 2015-08-15
-
 ---
 
 We highly recommend installing Jekyll on your computer to preview your site and help diagnose troubled builds before publishing your site on GitHub Pages.
