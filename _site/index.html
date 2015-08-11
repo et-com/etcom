@@ -9,10 +9,6 @@
     <meta name="description" content="Building more">
     <link rel="canonical" href="/">
 
-
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/style.css">
-
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -20,6 +16,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -182,13 +182,28 @@
               
               </ul>
             </div>
-            <div class="col-lg-12">
+            <div class="followUs col-lg-12">
               <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="">GitHub</a> and watch our repository, like this:</h3>
-              <figure>
-                <img class="img-responsive" src="https://help.github.com/assets/images/help/notifications/watcher_picker.gif"></img>
-                <figcaption>Look in the top right-hand corner of <a href="">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
-              </figure>
+              <h4>You have 2 options</h4> 
+              <div class="col-lg-4">
+                <h3>Subscribe to our newsletter</h3> 
+                <a href="#" class="btn btn-xl follow" data-toggle="modal" data-target="#modal">Newsletter</a>
+              </div> 
+              <div class="col-lg-4 follow-or">
+                <h5>OR</h5> 
+                <!--
+                <h3 class="section-subheading text-muted eventSubinstructions ">Head over to <a href="">GitHub</a> and watch our repository, like this:</h3>
+                <figure>
+                  <img class="img-responsive" src="https://help.github.com/assets/images/help/notifications/watcher_picker.gif"></img>
+                  <figcaption>Look in the top right-hand corner of <a href="">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
+                </figure>
+                  --> 
+              </div> 
+          
+              <div class="col-lg-4">
+                <h3>Visit our Google Calendar</h3>
+                <a href="#" class="btn btn-xl follow">Google Calendar</a>
+              </div> 
             </div>
         </div>
     </section>
@@ -293,6 +308,47 @@
         </div>
       </div>
     </div>
+      <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up!</h4>
+        </div>
+        <div class="modal-body">
+          <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="//www.us11.list-manage.com/subscribe/post?u=b61644eb89f79998ee583c43c&amp;id=5f7d6db2dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+        </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-FNAME">First Name </label>
+          <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+        </label>
+          <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+        </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_b61644eb89f79998ee583c43c_5f7d6db2dd" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl"></div>
+            </div>
+        </form>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </footer>
 
      <!-- jQuery Version 1.11.0 -->
@@ -312,6 +368,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
+    
+    <!--End mc_embed_signup-->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 
     </body>

@@ -982,6 +982,52 @@ footer .col-lg-6 {
 	padding: 10px 0;
 }
 
+/* ****************************************
+
+ portfolio_grid includes  
+
+***************************************** */
+
+.followUs {
+	text-align: center; 
+}
+
+a.btn.btn-xl.follow {
+	background-color: #fff;
+	border-color: #fff;
+	color: black;
+}
+a.btn.btn-xl.follow:hover {
+	border-color: #B60000;  
+}
+
+.follow-or h5 {
+    font-size: 400%;
+    padding: 10%;
+}
+
+/* ****************************************
+
+ Sign up Modal Styles 
+
+***************************************** */
+
+#mc_embed_signup div.mce_inline_error {
+	background-color: #DA6F6F;
+}
+
+#mc_embed_signup {
+ 	background: #fff; 
+ 	clear: left; 
+}
+
+#mc-embedded-subscribe {
+	margin: 0 auto;
+}
+
+
+
+
 @media (min-width: 768px) {  
 	.navbar-default .navbar-brand {
 		padding: 3% 0; 
