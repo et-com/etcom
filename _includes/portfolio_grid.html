@@ -20,7 +20,6 @@
                 {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
                   {% assign isEvent = 1 %}
                   <li>
-<<<<<<< HEAD
                     <div class="bu-event row">
                       <div class="bu-event-date col-lg-2">
                         <ul>
@@ -51,15 +50,7 @@
               {% endif %}
               </ul>
             </div>
-<<<<<<< HEAD
             <div class="followUs col-lg-12">
-=======
-            {% if site.calendar_on %}
-            <div class="col-lg-6">
-            {% else %}
-            <div class="col-lg-12">
-            {% endif %}
->>>>>>> upstream/gh-pages
               <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
               <h4>You have 2 options</h4> 
               <div class="col-lg-4">
@@ -83,13 +74,5 @@
                 <a href="https://www.google.com/calendar/ical/bu.edu_esl1fnditpr9e5r56rahkcm118%40group.calendar.google.com/public/basic.ics">iCal address</a></h3>  
               </div> 
             </div>
-            {% if site.calendar_on %}
-            <div class="col-lg-6">
-              <h3 class="section-heading eventInstructions">Subscribe to our events calendar!</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">We also invite you to follow <a href="{{ site.calendar_embed_url }}" target="_blank">our calendar</a>, where events will be posted. </h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use Google calendar, you can add our calendar by pressing the "Google Calendar" button at the bottom-right of <a href="{{ site.calendar_embed_url }}" target="_blank">this page</a>.</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use another calendar app, you can copy and paste <a href="{{ site.calendar_ical_url }}">this address</a> into any calendar product that supports the iCal format.</h3>
-            </div>
-            {% endif %}
         </div>
     </section>
