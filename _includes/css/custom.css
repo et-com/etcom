@@ -136,7 +136,9 @@ a.btn.btn-xl.follow:hover {
     padding: 10%;
 }
 
-
+#portfolio img {
+	margin: 0 auto; 
+}
 /* * * * * * * * * * * * * * * 
 							 
 	Modal Styles 
