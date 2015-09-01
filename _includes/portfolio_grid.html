@@ -21,14 +21,14 @@
                   {% assign isEvent = 1 %}
                   <li>
                     <div class="bu-event row">
-                      <div class="bu-event-date col-lg-2">
+                      <div class="bu-event-date col-lg-2 col-lg-offset-2">
                         <ul>
                           <li>{{ post.date | date: "%B" }}</li>
                           <li>{{ post.date | date: "%-d" }}</li> 
                           <li>{{ post.date | date: "%Y"}}<li>
                         </ul>
                       </div> 
-                      <div class="col-lg-10">
+                      <div class="col-lg-6">
                         <a class='eventTitle' href="{{ post.link }}">
                           <h3>{{ post.title }}</h3>
                         </a>
