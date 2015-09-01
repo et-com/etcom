@@ -1,8 +1,23 @@
+/* * * * * * * * * * * * * * * 
+							 
+	Team Member Styles
+
+* * * * * * * * * * * * * * */
+
 .team-member img.img-responsive {
  max-width: 110px;
 }
 .team-member i.fa {
  font-size: 110px;
+}
+
+/* * * * * * * * * * * * * * * 
+							 
+	BU Events Styles 
+
+* * * * * * * * * * * * * * */
+.bu-event {
+	text-align: left; 
 }
 
 .bu-event-date {
@@ -50,6 +65,16 @@ section h3.section-subheading {
 	margin-top: 15px; 
 }
 
+.eventSuggest {
+    margin-top: 1em;
+}
+
+/* * * * * * * * * * * * * * * 
+							 
+	Navbar Styles 
+
+* * * * * * * * * * * * * * */
+
 .navbar-default,
 .navbar-default .navbar-shrink  {
 	background-color: rgba(255, 255, 255, 0.9); 
@@ -69,6 +94,12 @@ section h3.section-subheading {
 	color: #131212;
 }
 
+/* * * * * * * * * * * * * * * 
+							 
+	Footer Styles 
+
+* * * * * * * * * * * * * * */
+
 footer .footer-img {
 	max-width: 190px; 
 }
@@ -81,11 +112,11 @@ footer .col-lg-6 {
 	padding: 10px 0;
 }
 
-/* ****************************************
+/* * * * * * * * * * * * * * * 
+							 
+	Portfolio Grid Styles 
 
- portfolio_grid includes  
-
-***************************************** */
+* * * * * * * * * * * * * * */
 
 .followUs {
 	text-align: center; 
@@ -105,11 +136,12 @@ a.btn.btn-xl.follow:hover {
     padding: 10%;
 }
 
-/* ****************************************
 
- Sign up Modal Styles 
+/* * * * * * * * * * * * * * * 
+							 
+	Modal Styles 
 
-***************************************** */
+* * * * * * * * * * * * * * */
 
 #mc_embed_signup div.mce_inline_error {
 	background-color: #DA6F6F;
@@ -125,7 +157,11 @@ a.btn.btn-xl.follow:hover {
 }
 
 
+/* * * * * * * * * * * * * * * 
+							 
+	Media Queries 
 
+* * * * * * * * * * * * * * */
 
 @media (min-width: 768px) {  
 	.navbar-default .navbar-brand {
