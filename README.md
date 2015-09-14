@@ -1,8 +1,6 @@
 BU's Study Groups
 ============
 
-Greetings,
-
 Thank you for visiting [BU's Study Group.](https://study.bu.edu) This group is designed to bring everyone in the BU community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
 
 We are using [Github's issue tracker](https://github.com/bulib/studyGroup/issues) to suggest events and to post discussion items. It is a little bit of a workaround but the functionality is great (and the cost is free : ).
@@ -11,7 +9,7 @@ Please add a comment to say hello. If you're interested in learning a new techno
 
 ### Wait What's a 'Study Group'?
 
-We are partnering with the Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project. Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
+We are partnering with the [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project. Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
 
 ## For Participants
 
