@@ -1,6 +1,6 @@
 # Lessons Folder 
 
-Welcome to our Lessons Folder. Use this space to develop lessons and to share them with the wider community. 
+Welcome to our Lessons Folder. And a big thank you for sharing your work. Please, use this space to develop lessons and to share them with the wider community. 
 
 To start a new lesson
 - create a new folder 
