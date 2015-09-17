@@ -1,7 +1,9 @@
----
-title: Introduction to Git
-author: Alexey Shiklomanov
----
+
+
+# Introduction to Git 
+ - **Authors**: Alexey Shiklomanov
+ - **Research field**: 
+ - **Lesson Topic**: 
 
 # Why version control?
 
