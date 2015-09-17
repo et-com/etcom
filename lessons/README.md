@@ -4,7 +4,7 @@ Welcome to our Lessons Folder. Use this space to develop lessons and to share th
 
 To start a new lesson
 - create a new folder 
-- add a README.md file based on the [template](/template/lesson.md)
+- add a README.md file based on the [template](template/lesson.md)
 - write your lesson 
 
 ## From Mozilla's Handbook
