@@ -1,9 +1,9 @@
 # Introduction to Git 
- - **Authors**: Alexey Shiklomanov (alexey.shiklomanov@gmail.com) [GitHub 
-   profile](https://github.com/ashiklom)
+ - **Authors**: Alexey Shiklomanov (alexey.shiklomanov@gmail.com) ([GitHub 
+   profile](https://github.com/ashiklom))
  - **Department**: [Earthy & Environment](www.bu.edu/earth)
  - **Research interests**: Ecological Modeling, Remote Sensing ([lab 
-   website](people.bu.edu/dietze)
+   website](people.bu.edu/dietze))
 
 # Why version control?
 
