@@ -1,7 +1,7 @@
 # Introduction to Git 
  - **Authors**: Alexey Shiklomanov (alexey.shiklomanov@gmail.com) ([GitHub 
    profile](https://github.com/ashiklom))
- - **Department**: [Earthy & Environment](www.bu.edu/earth)
+ - **Department**: [Earth & Environment](www.bu.edu/earth)
  - **Research interests**: Ecological Modeling, Remote Sensing ([lab 
    website](people.bu.edu/dietze))
 
