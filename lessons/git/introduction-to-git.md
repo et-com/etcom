@@ -298,4 +298,113 @@ Date:   Sun Sep 13 23:27:54 2015 -0400
     Create file1.txt
 ```
 
+## Going back in time
+
+So now that we've been able to generate a revision history with Git, how do we 
+use this history? There are actually loads and loads of useful things you can 
+do, from rewriting history to grabbing specific files from different points in 
+time and much more. In this section, I'm going to cover just one basic aspect: 
+Undoing a particular commit.
+
+The command we use to accomplish this is `git revert`, which creates a new 
+commit that exactly undoes one specific commit. First, for illustrative 
+purposes, I'm going to add a few more things to my history.  Here is my new 
+`git log`:
+
+```
+commit 1b16477bdecec11e9d97e9056a2eede7278709ef
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Fri Sep 18 19:00:38 2015 -0400
+
+    Edit file 2
+
+commit 1e20e7604d28e6a31dd8ce9b0ac8495c1fbe1044
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Fri Sep 18 19:00:22 2015 -0400
+
+    Edit file 1
+
+commit 9d7e4ddf465684ad2f005198590680ccc76d5e6d
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Fri Sep 18 19:00:01 2015 -0400
+
+    Create file2.txt
+
+commit 2642f75f3df7179ec92cd8fa65b0e724dab72758
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Mon Sep 14 00:06:08 2015 -0400
+
+    Add text to file1.txt
+
+commit 8cdb5cc6ef58e952f173fb63cd198314759ccdf5
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Sun Sep 13 23:27:54 2015 -0400
+
+    Create file1.txt
+
+```
+
+Now suppose my last edit to File 2 broke something and I wanted to undo that 
+change. All I have to do is enter `git revert 1b164`, where the string of 
+numbers and letters at the end is just the beginning of the commit hash. This 
+is one aspect of Git that is a little user-unfriendly -- these hexidecimal 
+commit IDs are impossible to memorize and awkward to input.  Therefore, 
+performing operations on commits requires you to master `git log` to quickly 
+identify the commits on which you want to operate.  Fortunately, Git has many 
+features that limit the necessity of accessing individual commits, such as 
+branching, which we'll cover at the end of this tutorial.
+
+Anyway, entering `git revert 1b164` will open a text editor window for you to 
+edit a commit message. This is because when Git does a revert, you aren't 
+going back in history so much as applying the *exact opposite* of the commit 
+of interest. This is Git's way of keeping you honest -- not only do you have a 
+record of everything you've done to allow you to undo it, but you keep a 
+record of your undoing itself! Feel free to revise the commit message or use 
+the default one (usually just `Revert "<Commit message from the commit you 
+unid>"`), save it, and quit the editor and you will find yourself restored to 
+the previous point in history.
+
+Note that reverting undoes **only the one commit you specify** and will 
+**not** undo any commits before or after. This means that you can create 
+internal conflicts if you have later commits that depend on the one you've 
+reverted. For instance, in my history, I have one commit creating File 2 and a 
+later commit revising the same file. If I try to revert only the commit that 
+creates the file, I will run into what's called a **merge conflict** because 
+my history no longer makes sense. Being the awesome tool that it is, Git will 
+helpfully notify you of exactly the location in the file(s) where conflicts 
+exist and require you to fix (or at least acknowledge) the conflicts before 
+committing. This involves nothing more than fixing (or at least examining) the 
+file, staging it via `git add`, and committing the change. However, better 
+than having to fix merge conflicts is to avoid them in the first place. In the 
+context of undoing, we can accomplish this by reverting a series of commits.
+
+In the previous example, we undid just the last commit, but suppose I want to 
+undo further back, to the point where I just created File 2. The way to do 
+this is to pass a series of commits via `git revert 9d7e4..HEAD`, where 
+`9d7e4` is the earliest commit to which we want to revert and `HEAD` refers to 
+the current state. When you run this command, you will be taken through all of 
+your commits in reverse order and be asked to commit each in turn. For small 
+numbers of commits, this is OK, but for larger batches, you may want to accept 
+the commit messages automatically, which is done by adding the `--no-edit` 
+flag.
+
+Alternatively, you may want to revert to a previous commit, but don't want to 
+commit (pun intended) to the change right away. For instance, you may want to 
+see if the revert breaks something. To return to a previous point in history 
+*without* committing the changes, add the `--no-commit-` or `-n` flag. Using 
+our now familiar Git lingo, this will apply the revert to your working 
+directory but leave the option to stage and committing the resulting changes 
+up to you!
+
 ## Branching
+
+Hopefully, the flexibility of the `revert` command has nurtured your 
+appreciation for the power of Git, but if that hasn't done the trick, I think 
+branching will be an even better sell.
+
+Imagine the following situation: You're working on a project and you get to a 
+point where everything works...but not quite as well as you'd like. You have 
+some ideas for how to improve the project, but you're not sure whether they'll 
+actually work, and you're a little nervous about trying to implement them 
+since they might break your current setup. Enter branching, which lets you 
+diverge
