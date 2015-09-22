@@ -377,7 +377,7 @@ committing. This involves nothing more than fixing (or at least examining) the
 file, staging it via `git add`, and committing the change. However, better 
 than having to fix merge conflicts is to avoid them in the first place. In the 
 context of undoing, we can accomplish this by reverting a series of commits.
-
+ 
 In the previous example, we undid just the last commit, but suppose I want to 
 undo further back, to the point where I just created File 2. The way to do 
 this is to pass a series of commits via `git revert 9d7e4..HEAD`, where 
@@ -406,5 +406,187 @@ Imagine the following situation: You're working on a project and you get to a
 point where everything works...but not quite as well as you'd like. You have 
 some ideas for how to improve the project, but you're not sure whether they'll 
 actually work, and you're a little nervous about trying to implement them 
-since they might break your current setup. Enter branching, which lets you 
-diverge
+since they might break your current setup. Enter branching, which effectively 
+allows you to split your heretofore linear history into multiple "branches" 
+and effortlessly switch between them. This is best illustrated with an 
+example:
+
+Suppose I have the following `git log`:
+
+```
+commit a84fda6c9db47d051205a25c583f49c4aa590849
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Mon Sep 21 23:08:23 2015 -0400
+
+    Create file 3
+
+commit 1e942536e28b20a5656ecc26e89e45223ebf85b2
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Mon Sep 21 23:08:09 2015 -0400
+
+    Create file 2
+
+commit 2642f75f3df7179ec92cd8fa65b0e724dab72758
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Mon Sep 14 00:06:08 2015 -0400
+
+    Add text to file1.txt
+
+commit 8cdb5cc6ef58e952f173fb63cd198314759ccdf5
+Author: Alexey Shiklomanov (LVM64) <alexey.shiklomanov@gmail.com>
+Date:   Sun Sep 13 23:27:54 2015 -0400
+
+    Create file1.txt
+```
+
+I want to add some new files to this, but I'm a little worried that they won't 
+play nicely with my old files. So, rather than risking breaking my current 
+setup, I'm going to create a branch called "file-a" as follows: `git branch 
+file-a`. If I enter `git branch` with no arguments after doing so, I see the 
+following:
+
+```
+  file-a
+* master
+```
+
+This shows me that I have two branches -- `file-a` and `master` (the default 
+branch) -- and that I am currently on the branch `master`. To switch between 
+branches, I use the `git checkout <branch name>` command, so in this case, I 
+call `git branch file-a`, which outputs:
+
+```
+Switched to branch 'file-a'
+```
+
+If I look at my current working directory and history, they are exactly the 
+same, which makes sense because I haven't actually "grown" this branch 
+anywhere compared to "master". Let's add a file and stage and commit it on 
+this new branch:
+
+```
+#> touch file.a
+#> git add file.a
+#> git commit -m "Create file.a"
+
+[file-a 95b8fa7] Create file.a
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.a
+```
+
+This commit now appears in my Git log, and the file is obviously present in 
+the directory. 
+
+```
+#> ls
+file.a  file1.txt  file2.txt
+```
+
+Now it gets cool. 
+
+Suppose this does break something and I suddenly need to go back to my 
+previous version to run something in its working condition. I could undo this 
+change with `revert`, but I feel like I've made progress and I want to build 
+on it first. All I have to do to go back to the `master` branch is enter `git 
+checkout master`:
+
+```
+Switched to branch `master`
+```
+
+Now, what does my working directory look like:
+
+```
+#> ls
+file1.txt  file2.txt
+```
+
+`file.a` isn't there! If you check the Git log, you won't find the commit 
+adding `file.a` in there either. But don't fear: `file.a` hasn't been deleted; 
+rather, it's stored by Git (in a highly compressed and optimized format) and 
+is associated with the branch `file-a`. To go back to it, simply `git checkout 
+file-a` again and voila!
+
+```
+#> ls
+file.a  file1.txt  file2.txt
+```
+
+You can keep adding as many commits as you want to the `file-a` branch, and 
+you can have as many branches as you'd like and freely move between them. So, 
+if you wanted to try a completely different approach (say `file-c`) starting 
+from `master` without losing your work on `file-a`, you totally could! And you 
+can have branches branching off of other branches and so on for as complex a 
+tree as you'd care to make!
+
+But having branches go off forever isn't the best solution -- what if you find 
+that you get to a point on `file-a` where it is objectively better than your 
+branching point on `master`? The thing to do here is to *merge* your branch 
+with the master branch. This will apply every commit on your `file-a` branch 
+to the master branch, bringing both branches fully in sync with each other. In 
+our simple example, we first checkout the master branch (`git checkout 
+master`) and then `git merge file-a` to merge the `file-a` branch into the 
+current `master` branch, giving the following output:
+
+```
+Updating a84fda6..95b8fa7
+Fast-forward
+ file.a | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.a
+```
+
+If you'd like, you can now delete the "file-a" branch since it is no longer 
+required and will clutter your workspace -- the command to do this is `git 
+branch -d file-a`. Note that Git will not let you delete an unmerged branch 
+that is ahead of its parent in this way. To force the deletion (*be 
+careful!*), use the capital `-D` flag.
+
+In the case of a strictly linear history (i.e. every commit on "file-a" is 
+chronologically and logically ahead of "master"), merging is always this 
+simple. As you use Git more, you will encounter situations where the history 
+is not strictly linear; for instance, you may branch off from "master" to 
+develop a new feature but then *also* update your "master" branch to implement 
+minor bug-fixes or something like that. In such cases, there will be some 
+commits on "master" that are not in the history of your other branches. When 
+this happens, a merge may not necessarily have the intended consequences and 
+will will prompt for a commit, even if there are not explicit conflicts. And 
+in some cases, you may have two different versions of the same file on 
+branches you are trying to merge, in which case the merge will create a 
+conflict (akin to our previous discussion of `git revert`) that you have to 
+resolve before completing the merge.
+
+# Conclusion and summary
+
+Those are all the basics you need to know to start effectively using Git 
+locally (i.e. without linking to any remote service). Here is a summary of the 
+topics we covered:
+
+* **Why use version control?** To keep track of everything you've done and 
+  provide you with powerful tools to undo and revise it!
+* **Setup**: The recommended way to install Git is by installing the GitHub 
+  app and using its menus to set up Git command line tools.
+* **Creating a repository:** Go to an existing directory (empty or occupied, 
+  it doesn't matter) and run `git init`.
+* **Tracking and editing files:** Git moves files between three locations: the 
+  working directory, the staging area, and the history. Changes are made in 
+  the working directory (edited), moved to the staging area when they are 
+  ready to be committed (`git add`, or `git rm` to remove), and then committed 
+  to the history (`git commit`).
+* **Undoing saved changes:** The `git revert` command undoes a specific commit 
+  by creating a *new* commit that is the exact opposite action. To undo 
+  multiple commits, pass a series of commits connected by two periods (`..`, 
+  i.e. `<earliest commit to undo>..<latest>`). Previous commits are identified 
+  by their commit hash, a long string of hexidecimal numbers and letters that 
+  can be abbreviated to the shortest unique length. The latest saved commit is 
+  also referred to as the `HEAD`.
+* **Branching:** Branching is a very powerful and convenient way to make 
+  different versions of files between which you can move quickly and easily.  
+  To create a branch, enter `git branch <name>`. To switch to another branch, 
+  use `git checkout <name>`. Merging a branch transfers all of its commits to 
+  the current branch; this is done with `git merge <name>`.
+
+There was a lot of material in this tutorial! Fortunately, once you've 
+mastered this one, the next tutorial is a pretty straightforward one (but 
+incredibly useful!) on using Git with online "remote" repositories like 
+GitHub.
