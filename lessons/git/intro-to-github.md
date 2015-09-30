@@ -108,7 +108,12 @@ if you modify 3 lines of code in a project that has tens of thousands, only
 those 3 lines are transferred. This is part of the beauty of version control.
 
 Note that you have to do this *for every new branch*, because the branch is 
-part of the pushing location.
+part of the pushing location. If you want to configure a local branch to track 
+a remote branch without pushing, the command is:
+
+```
+git branch --track <branch> <remote>/<remote branch>
+```
 
 Now, let's add a new file and commit it.
 
@@ -153,3 +158,83 @@ Total 2 (delta 1), reused 0 (delta 0)
 To https://github.com/ashiklom/test-repo
    afed427..60d332a  master -> master
 ```
+
+# Downloading from an online repository
+
+If you're working on a project alone from a single computer, your local work
+will always be at or ahead of your remote. However, oftentimes, you will work 
+on multiple computers. There are two scenarios we cover here: (1) You already 
+have the repository locally, but it's out of date, or (2) You don't 
+have a copy of the repository on your local machine and want to download the 
+entire thing from scratch. 
+
+## Updating your local repository (pulling)
+
+First, browse to your `test-repo` on GitHub and make a few edits using the 
+built-in editor. Note that GitHub forces you to commit every single one of 
+these edits, which is how you should do version control locally as well.
+
+Once you have a few commits, go back to your local repository in the command 
+line and run `git pull`. 
+
+```
+#> git pull
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+From https://github.com/ashiklom/test-repo
+   60d332a..2d661b8  master     -> origin/master
+Updating 60d332a..2d661b8
+Fast-forward
+ online1 | 1 +
+ online2 | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 online1
+ create mode 100644 online2
+```
+
+In my case, I had two new commits, each of which created a new file (`online1` 
+and `online2`). The `pull` command is actually a combination of two commands:
+`fetch`, which downloads all of the new remote commits into a temporary branch 
+and the familiar `merge`, which merges the commits of that temporary branch 
+into your current branch. Given this structure, it makes sense that it's 
+possible to have merge conflicts when doing a pull -- for instance, if your 
+local branch has some commits that are not on the remote branch *and* 
+vice-versa.
+
+In general, git operates under the philosophy that **the remote is always 
+right**. This makes a lot of sense given that git was developed for 
+collaboration (specifically, by Linux founder Linus Torvalds to build Linux 
+itself!). Therefore, git actually *will not let you push new commits* until 
+your local branch is up-to-date with the remote. To avoid this, **always** 
+update your local branch with `git pull` before doing `git push`.
+
+## Downloading from scratch (cloning)
+
+The process for downloading Git repositories is VERY straightforward. The 
+command you use is `git clone <URL>`, for instance:
+
+```
+#> git clone https://github.com/ashiklom/test-repo
+Cloning into 'test-repo'...
+remote: Counting objects: 34, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 34 (delta 15), reused 33 (delta 14), pack-reused 0
+Unpacking objects: 100% (34/34), done.
+Checking connectivity... done.
+```
+
+And that's it! Cloning will download the *entire* commit history through the 
+most recent commit, as well as all of the branches (to see all branches, use 
+the command `git branch --all`). It also automatically sets up all of the 
+tracking information so that you can start pushing and pulling right away!
+
+NOTE however that while you are free to clone and pull from any public 
+repository, you can only push to repositories for which you have push access. 
+
+By default, the `clone` command creates a new directory in your current 
+directory with the same name as the repository and downloads the files into 
+there.  If you want to clone into a different directory, just add the target 
+directory onto the end of the cloning command (e.g. `git clone 
+https://github.com/ashiklom/test-repo tutorial`).
