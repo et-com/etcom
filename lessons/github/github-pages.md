@@ -71,3 +71,7 @@ With GitHub pages you **cannot**:
  5. Wait a few seconds ... and visit http://username.github.io *where username is your username*
  6. From there you can create all sorts of fun stuff using HTML, CSS, and JavaScript. 
 
+## Be sure to also check out
+
+ 1. How to create a project site from GitHub's automatic generator
+ 2. How to create a project site by creating a gh-pages branch (note you can set this to the default branch) 
