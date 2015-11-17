@@ -57,3 +57,17 @@ With GitHub pages you **cannot**:
 
 ### Via the terminal 
 
+ 1. Clone the repository you created online using ```git clone```
+ 2. Navigate into your repo using ```cd username.github.io``` *where username is your username*
+ 3. Run ```echo "Hello World" > index.html``` to create an index.html page 
+ 4. Push your changes to your repo via 
+ 
+  ``` 
+  git add --all
+  git commit -m "Initial commit"
+  git push -u origin master  
+  ```
+
+ 5. Wait a few seconds ... and visit http://username.github.io *where username is your username*
+ 6. From there you can create all sorts of fun stuff using HTML, CSS, and JavaScript. 
+
