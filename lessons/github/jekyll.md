@@ -53,7 +53,15 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 3) Variables are super useful. You might have guess it, but I thought I should tell you anyway. An example will show you why you need to understand Jekyll's variables. 
  
  - Take a look at your _config.yml file - see the ``` name: Your Name ```? 
- - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for name: 
+ - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for ```name: ```
+ 
+4) The _layouts is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
+ - Open _posts/2014-3-3-Hello-World.md. There are two frontmatter variables, layout and title (lines 1-4), as well as some content on lines 6-10. 
+ - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? Thats where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
+ - Okay, let's go up one more level and check out the default layout. Open _layouts/default.html. On about line 43 of default.html you should see something like ``` {{ content }} ```. Thats where all your post content will go. 
+
+**whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template. 
+
 
 
 END LESSON 
