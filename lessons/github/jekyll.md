@@ -1,6 +1,6 @@
 # Getting Started with Jekyll 
 
-This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using Barry Clark's jekyll-now repo to jump start our learning (and experiment). 
+This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now) to jump start our learning (and experiment). 
 
 At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. 
 
@@ -16,11 +16,11 @@ and spits out a complete, ready-to-publish static website suitable for
 serving with your favorite web server. 
 ```
 
-What's that mean? You can use Jekyll to create a static blog for free using GitHub Pages. 
+What's that mean? You can use Jekyll to create a static blog for free using GitHub Pages - actually, all of GitHub Pages runs Jekyll. 
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown and other text formats - like HTML or Liquid. So rather than writing <p> tages and <a> tags, you can write in Markdown and let Jekyll do the markup. 
+Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, that means you don't have to worry about databases, a cms, dealing with comments - you can just write and publish.  
 
 ## Setting up Jekyll 
 
@@ -55,13 +55,15 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
  - Take a look at your _config.yml file - see the ``` name: Your Name ```? 
  - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for ```name: ```
  
-4) The _layouts is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
+4) The _layouts folder is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
  - Open _posts/2014-3-3-Hello-World.md. There are two frontmatter variables, layout and title (lines 1-4), as well as some content on lines 6-10. 
  - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? Thats where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
  - Okay, let's go up one more level and check out the default layout. Open _layouts/default.html. On about line 43 of default.html you should see something like ``` {{ content }} ```. Thats where all your post content will go. 
 
 **whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template. 
+5) _site is where the site is put after each build. It holds all your html, css, and js files 
 
+6) _scss is for sass, which Jekyll will convert to css. 
 
 
 END LESSON 
