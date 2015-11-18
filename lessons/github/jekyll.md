@@ -52,8 +52,19 @@ For this lesson, we are going to go simple.
 And take a look at the [directory structure for Jekyll sites](http://jekyllrb.com/docs/structure/) and talk over what happens. 
 Also, take a look at [your example](http://tomhohenstein.com/jekyll-now)
 . 
-**Remember:** [Frontmatter is required](https://help.github.com/articles/using-jekyll-with-pages/#frontmatter-is-required) or you'll have build problems.
- 
+
+## Things to know about 
+
+1) [Frontmatter is required](https://help.github.com/articles/using-jekyll-with-pages/#frontmatter-is-required) or you'll have build problems. What is frontmatter? It looks like 
+
+```
+---
+layout: post
+title: You're up and running!
+---
+```
+Frontmatter is Jekyll's way of passing variables and build information. For example, the post above has the layout variable set to "post" and the title is "You're up and running!." To learn more, [check out all of Jekyll's variables](http://jekyllrb.com/docs/variables/). 
+
 
 END LESSON 
 
