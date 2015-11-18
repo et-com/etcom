@@ -18,9 +18,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown and other text formats - like HTML or Liquid. 
-So rather than writing <p> tages and <a> tags, you can write in Markdown and let 
-Jekyll do the markup. 
+Jekyll allows you to write posts and pages in Markdown and other text formats - like HTML or Liquid. So rather than writing <p> tages and <a> tags, you can write in Markdown and let Jekyll do the markup. 
 
 
 ## What are the prerequisites? 
