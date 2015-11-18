@@ -25,18 +25,25 @@ Jekyll do the markup.
 
 ## What are the prerequisites? 
 
-
  1. Ruby
  2. RubyGems
  3. Linux, Unix, or Mac OS X
+ 4. NodeJS (or another JavaScript runtime) 
+ 5. Python 2.7 (for Jekyll 2 and earlier) 
 
 Want to know more, [read the offical documents](http://jekyllrb.com/docs/installation/)
 
- 
-### What aboud Windows? 
+### Wait, What aboud Windows? 
 
+While Windows is not officially supported (I know!) there are [instructions for getting Jekyll to work](http://jekyllrb.com/docs/windows/#installation). 
 
+For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windows.juthilo.com/). 
 
+## Installation 
+
+### Mac 
+
+### Windows 
 
 ## Setting up Jekyll 
 
