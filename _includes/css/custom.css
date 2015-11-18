@@ -158,6 +158,15 @@ a.btn.btn-xl.follow:hover {
 	margin: 0 auto;
 }
 
+/* * * * * * * * * * * * * * * 
+							 
+	Gitter Sidecar
+
+* * * * * * * * * * * * * * */
+
+.gitter-chat-embed {
+	z-index: 1035;
+}
 
 /* * * * * * * * * * * * * * * 
 							 
