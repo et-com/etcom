@@ -45,7 +45,6 @@ For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windo
 
 These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
 
-
 1) Install Ruby - if you're on a Mac you probably already have Ruby installed. To check run: 
 ```
 ruby --version
@@ -64,11 +63,32 @@ gem install bundler
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
 
-
-
 ### Windows 
 
 ## Setting up Jekyll 
+
+For this lesson, we are going to go simple. 
+
+ 1. Fork [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now)
+ 2. In your new repo titled "jekyll-now" create a new gh-pages branch
+ 3. Visit http:username.github.io/jekyll-now 
+
+ 1. Navigate to the folder that contains your username.github.io repository 
+ 2. Run ``` Jekyll new username.github.io ``` *where username is your username*
+ 3. Move into your repository ``` cd username.github.io ``` *where username is your username*
+
+#### Okay, let's stop for a second
+
+And take a look at the [directory structure for Jekyll sites](http://jekyllrb.com/docs/structure/) and talk over what happens. 
+Also, take a look at the [Study Group page for a real example](https://github.com/bulib/studyGroup)
+. 
+
+#### Frontmatter is required 
+
+  [Frontmatter is required](https://help.github.com/articles/using-jekyll-with-pages/#frontmatter-is-required) or you'll have build problems.
+ 
+
+
 
 ## Jekyll Blog Templates 
 
