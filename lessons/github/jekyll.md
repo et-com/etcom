@@ -47,27 +47,13 @@ For this lesson, we are going to go simple.
  2. In your new repo titled "jekyll-now" create a new gh-pages branch
  3. Visit http://username.github.io/jekyll-now 
 
- 1. Navigate to the folder that contains your username.github.io repository 
- 2. Run ``` Jekyll new username.github.io ``` *where username is your username*
- 3. Move into your repository ``` cd username.github.io ``` *where username is your username*
-
 #### Okay, let's stop for a second
 
 And take a look at the [directory structure for Jekyll sites](http://jekyllrb.com/docs/structure/) and talk over what happens. 
 Also, take a look at [your example](http://tomhohenstein.com/jekyll-now)
 . 
-
-#### Frontmatter is required 
-
-  [Frontmatter is required](https://help.github.com/articles/using-jekyll-with-pages/#frontmatter-is-required) or you'll have build problems.
+**Remember:** [Frontmatter is required](https://help.github.com/articles/using-jekyll-with-pages/#frontmatter-is-required) or you'll have build problems.
  
-
-
-
-## Jekyll Blog Templates 
-
-## Let's review the file structure 
-
 
 END LESSON 
 
