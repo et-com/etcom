@@ -54,7 +54,7 @@ For this lesson, we are going to go simple.
 #### Okay, let's stop for a second
 
 And take a look at the [directory structure for Jekyll sites](http://jekyllrb.com/docs/structure/) and talk over what happens. 
-Also, take a look at the [Study Group page for a real example](https://github.com/bulib/studyGroup)
+Also, take a look at [your example](http://tomhohenstein.com/jekyll-now)
 . 
 
 #### Frontmatter is required 
