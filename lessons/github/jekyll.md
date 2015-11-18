@@ -71,7 +71,7 @@ For this lesson, we are going to go simple.
 
  1. Fork [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now)
  2. In your new repo titled "jekyll-now" create a new gh-pages branch
- 3. Visit http:username.github.io/jekyll-now 
+ 3. Visit http://username.github.io/jekyll-now 
 
  1. Navigate to the folder that contains your username.github.io repository 
  2. Run ``` Jekyll new username.github.io ``` *where username is your username*
