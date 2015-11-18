@@ -60,7 +60,8 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
  - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? Thats where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
  - Okay, let's go up one more level and check out the default layout. Open _layouts/default.html. On about line 43 of default.html you should see something like ``` {{ content }} ```. Thats where all your post content will go. 
 
-**whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template. 
+**whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template.
+
 5) _site is where the site is put after each build. It holds all your html, css, and js files 
 
 6) _scss is for sass, which Jekyll will convert to css. 
