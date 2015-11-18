@@ -43,6 +43,29 @@ For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windo
 
 ### Mac 
 
+These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
+
+
+1) Install Ruby - if you're on a Mac you probably already have Ruby installed. To check run: 
+```
+ruby --version
+```
+You'll want version 2.0.0 or higher 
+
+2) Install Bundler 
+
+```
+gem install bundler
+```
+
+3) Install Jekyll 
+
+ 1. Create a file in your repository called ```Gemfile``` 
+ 2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
+ 3. Run the command ``` bundle install ``` and you should ready. 
+
+
+
 ### Windows 
 
 ## Setting up Jekyll 
