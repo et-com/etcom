@@ -118,6 +118,11 @@ gem install bundler
 
 #### Windows 
 
- ** Note:** I don't have a windows machine! 
- The directions are at: http://jekyll-windows.juthilo.com/
+ *Note:* I don't have a windows machine! 
+ The directions are at: http://jekyll-windows.juthilo.com/ (and they are great!) 
+ 
+ 1) Download Ruby for Windows at: http://rubyinstaller.org/downloads/
+ 2) Install the Ruby Dev Kit at: http://rubyinstaller.org/downloads/ (for Ruby v2.0.0 look for ``` DevKit-mingw64 ```
+ 3) Follow the instructions at: http://jekyll-windows.juthilo.com/1-ruby-and-devkit/ to bind the DevKit to your Ruby installation
+ 4) Install the Jekyll gem ``` gem install jekyll ```
  
