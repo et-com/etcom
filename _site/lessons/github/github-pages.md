@@ -19,7 +19,7 @@ Static means the pages are not dynamically updated via a backend database, howev
 
   1. A GitHub account 
   2. A repository or project 
-  3. Knowledge of Markdown or HTML 
+  3. Some knowledge of Markdown or HTML 
   4. A little bit of time and effort 
 
 ## Capabilities 

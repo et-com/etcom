@@ -20,7 +20,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.  
+Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
 
 ## Setting up Jekyll 
 
@@ -70,7 +70,7 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 ## Play Time 
 
-Let's take a few minutes to explore the jekyll-now repo, ask questions, and discover what a jekyll blog looks like. Also, if you're interested check out our BU Study Group repo. 
+Let's take a few minutes to explore the jekyll-now repo, ask questions, and discover what a Jekyll blog looks like. Also, if you're interested check out our BU Study Group repo. 
 
 ## Setting up Jekyll locally 
 
@@ -111,6 +111,13 @@ You'll want version 2.0.0 or higher. If you don't have Ruby installed check out 
  1. Create a file in your repository called ```Gemfile``` 
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
+ 4. If not, run ```gem install jekyll``` (after updating my computer I had to rerun this command to get Jekyll working again) 
+
+4) Test if things are working 
+
+ 1. ```ruby -v ``` to test Ruby 
+ 2. ```gem -v``` to test RubyGems
+ 3. ```jekyll -v``` to test Jekyll 
 
 #### Windows 
 
