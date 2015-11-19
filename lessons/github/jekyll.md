@@ -55,6 +55,8 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
  - Take a look at your _config.yml file - see the ``` name: Your Name ```? 
  - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for ```name: ```
  
+**For more information about variables checkout [jekyll's documentation](http://jekyllrb.com/docs/variables/) and [Shopify's Liquid](https://github.com/Shopify/liquid/wiki)
+
 4) The _layouts folder is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
  - Open _posts/2014-3-3-Hello-World.md. There are two frontmatter variables, layout and title (lines 1-4), as well as some content on lines 6-10. 
  - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? Thats where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
@@ -66,12 +68,15 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 6) _scss is for sass, which Jekyll will convert to css. 
 
+## Play Time 
 
-END LESSON 
+Let's take a few minutes to explore the jekyll-now repo, ask questions, and discover what a jekyll blog looks like. Also, if you're interested check out our BU Study Group repo. 
 
-# Setting up Jekyll locally 
+## Setting up Jekyll locally 
 
-## What are the prerequisites? 
+The great thing about using Jekyll is that, once it is all setup, you can develop locally and then push your content to GitHub. This part is a little more technical and 
+
+### What are the prerequisites? 
 
  1. Ruby
  2. RubyGems
@@ -81,17 +86,17 @@ END LESSON
 
 Want to know more, [read the offical documents](http://jekyllrb.com/docs/installation/)
 
-### Wait, What aboud Windows? 
+#### Wait, What aboud Windows? 
 
 While Windows is not officially supported (I know!) there are [instructions for getting Jekyll to work](http://jekyllrb.com/docs/windows/#installation). 
 
 For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windows.juthilo.com/). 
 
-## Installation 
+### Installation 
 
-### Mac 
+#### Mac 
 
-These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
+These instructions are also posted at: ahttps://help.github.com/articles/using-jekyll-with-pages/a
 
 1) Install Ruby - if you're on a Mac you probably already have Ruby installed. To check run: 
 ```
@@ -111,4 +116,8 @@ gem install bundler
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
 
-### Windows 
+#### Windows 
+
+ ** Note:** I don't have a windows machine! 
+ The directions are at: http://jekyll-windows.juthilo.com/
+ 
