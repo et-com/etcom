@@ -55,7 +55,7 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
  - Take a look at your _config.yml file - see the ``` name: Your Name ```? 
  - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for ```name: ```
  
-**For more information about variables checkout [jekyll's documentation](http://jekyllrb.com/docs/variables/) and [Shopify's Liquid](https://github.com/Shopify/liquid/wiki)
+**For more information** about variables checkout [jekyll's documentation](http://jekyllrb.com/docs/variables/) and [Shopify's Liquid](https://github.com/Shopify/liquid/wiki)
 
 4) The _layouts folder is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
  - Open _posts/2014-3-3-Hello-World.md. There are two frontmatter variables, layout and title (lines 1-4), as well as some content on lines 6-10. 
@@ -74,7 +74,9 @@ Let's take a few minutes to explore the jekyll-now repo, ask questions, and disc
 
 ## Setting up Jekyll locally 
 
-The great thing about using Jekyll is that, once it is all setup, you can develop locally and then push your content to GitHub. This part is a little more technical and I haven't refined the process for prime time (so we will have to work through this together) 
+The great thing about using Jekyll is that, once it is all setup, you can develop locally and then push your content to GitHub. Additionally, with the built-in auto-regeneration, you can see your changes almost instantly on your local build (which is pretty much awesome when you're working) 
+
+This part is a little more technical and I haven't refined the process for prime time (so we will have to work through this together). 
 
 ### What are the prerequisites? 
 
@@ -96,21 +98,15 @@ For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windo
 
 #### Mac 
 
-These instructions are also posted at: ahttps://help.github.com/articles/using-jekyll-with-pages/a
+These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
 
-1) Install Ruby - if you're on a Mac you probably already have Ruby installed. To check run: 
-```
-ruby --version
-```
-You'll want version 2.0.0 or higher 
+1) Install Ruby - if you're on a Mac you probably already have Ruby installed. To check run: ```ruby --version ```
 
-2) Install Bundler 
+You'll want version 2.0.0 or higher. If you don't have Ruby installed check out the [Ruby installation site](https://www.ruby-lang.org/en/documentation/installation/)
 
-```
-gem install bundler
-```
+2) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
 
-3) Install Jekyll 
+3) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
 
  1. Create a file in your repository called ```Gemfile``` 
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
@@ -118,9 +114,9 @@ gem install bundler
 
 #### Windows 
 
- *Note:* I don't have a windows machine! 
+ *Note:* I don't have a windows machine! So be sure to have [Julian Thilo's instructions](http://jekyll-windows.juthilo.com/) handy.
  
- The directions are at: http://jekyll-windows.juthilo.com/ (and they are great!) I'd use those over the ones below. 
+ The basics are: 
  
  1) Download Ruby for Windows at: http://rubyinstaller.org/downloads/
 
@@ -136,8 +132,6 @@ gem install bundler
  
  7) Install Python base of Pygments ``` python -m pip install Pygments ```
  
-
-
 ### Running Jekyll and building 
 
 #### Mac 
@@ -148,5 +142,8 @@ You can also check out the [Jekyll docs for more options](http://jekyllrb.com/do
 
 #### Windows 
 
+With Windoes you need wdm to enable the auto-regeneration to get it run ```gem install wdm```
+
+Be sure to check out [other Windows errors](http://jekyll-windows.juthilo.com/5-running-jekyll/) and troubleshoot appropriately
 
 
