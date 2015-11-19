@@ -46,7 +46,7 @@ layout: post
 title: You're up and running!
 ---
 ```
-Frontmatter is Jekyll's way of passing variables and build information. For example, the post above has the layout variable set to "post" and the title is "You're up and running!." To learn more, [check out all of Jekyll's variables](http://jekyllrb.com/docs/variables/). 
+Frontmatter is Jekyll's way of passing variables and build information. For example, the post above has the layout variable set to "post" and the title is "You're up and running!." To learn more, [check out all of Jekyll's variables](http://jekyllrb.com/docs/variables/). To see some frontmatter, check out your about.md file in the raw format on GitHub. 
 
 2) _config.yml is huge. This is where all of your configurations are stored. When Jekyll builds your site, it will look at the _config.yml file for options and variables.
 
@@ -64,9 +64,13 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 **whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template.
 
-5) _site is where the site is put after each build. It holds all your html, css, and js files 
+5) _scss is for sass, which Jekyll will convert to css. 
 
-6) _scss is for sass, which Jekyll will convert to css. 
+6) _site is where the site is put after each build. It holds all your html, css, and js files 
+
+** But wait, there's now _site folder!!** Time for the live build : ) run 
+
+```bundle exec jekyll serve```
 
 ## Play Time 
 
