@@ -68,7 +68,7 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 6) _site is where the site is put after each build. It holds all your html, css, and js files 
 
-** But wait, there's now _site folder!!** Time for the live build : ) run 
+**But wait, there's now _site folder!!** Time for the live build : ) run 
 
 ```bundle exec jekyll serve```
 
