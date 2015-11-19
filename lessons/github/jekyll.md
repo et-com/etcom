@@ -20,7 +20,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write [posts and pages in Markdown]( studyGroup/_posts/2015-09-15-Introductory-Hacky-Hour.markdown) as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
+Jekyll allows you to write [posts and pages in Markdown](https://github.com/bulib/studyGroup/blob/gh-pages/_posts/2015-09-15-Introductory-Hacky-Hour.markdown) as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
 
 ## Setting up Jekyll 
 
