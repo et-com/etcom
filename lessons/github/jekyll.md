@@ -1,6 +1,6 @@
 # Getting Started with Jekyll 
 
-This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now) to jump start our learning (and experiment). 
+This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now) to jump-start our learning (and experiment). 
 
 At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. 
 
@@ -20,7 +20,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, that means you don't have to worry about databases, a cms, dealing with comments - you can just write and publish.  
+Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.  
 
 ## Setting up Jekyll 
 
@@ -50,17 +50,17 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 2) _config.yml is huge. This is where all of your configurations are stored. When Jekyll builds your site, it will look at the _config.yml file for options and variables.
 
-3) Variables are super useful. You might have guess it, but I thought I should tell you anyway. An example will show you why you need to understand Jekyll's variables. 
+3) Variables are super useful. You might have guessed it, but I thought I should tell you anyway. An example will show you why you need to understand Jekyll's variables. 
  
  - Take a look at your _config.yml file - see the ``` name: Your Name ```? 
  - Now go open _layouts/default.html. See ``` <meta name="author" content="{{ site.name }}" ```. You guessed it, when Jekyll builds a site it replaces ``` {{ site.name }} ``` with the value in the _config.yml file for ```name: ```
  
-**For more information** about variables checkout [jekyll's documentation](http://jekyllrb.com/docs/variables/) and [Shopify's Liquid](https://github.com/Shopify/liquid/wiki)
+**For more information** about variables checkout [Jekyll's documentation](http://jekyllrb.com/docs/variables/) and [Shopify's Liquid](https://github.com/Shopify/liquid/wiki)
 
 4) The _layouts folder is your friend. If you want posts to look different than pages, _layouts is the place to store your templates. Let's take a closer look at how this works: 
  - Open _posts/2014-3-3-Hello-World.md. There are two frontmatter variables, layout and title (lines 1-4), as well as some content on lines 6-10. 
- - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? Thats where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
- - Okay, let's go up one more level and check out the default layout. Open _layouts/default.html. On about line 43 of default.html you should see something like ``` {{ content }} ```. Thats where all your post content will go. 
+ - Now take a look at: _layouts/post.html. Check out ```{{ page.title}}``` on line 6 - yep, that's where the title, "You're up and running!" in this example, will be placed.  Notice ``` {{ content }} ``` on line 9? That is where the content from _posts/2014-3-3-Hello-World.md will go. Finally, post.html has one variable in its frontmatter - layout - which is set to "default" 
+ - Okay, let's go up one more level and check out the default layout. Open _layouts/default.html. On about line 43 of default.html you should see something like ``` {{ content }} ```. That is where all your post content will go. 
 
 **whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template.
 
@@ -86,9 +86,9 @@ This part is a little more technical and I haven't refined the process for prime
  4. NodeJS (or another JavaScript runtime) 
  5. Python 2.7 (for Jekyll 2 and earlier) 
 
-Want to know more, [read the offical documents](http://jekyllrb.com/docs/installation/)
+Want to know more, [read the official documents](http://jekyllrb.com/docs/installation/)
 
-#### Wait, What aboud Windows? 
+#### Wait, What about Windows? 
 
 While Windows is not officially supported (I know!) there are [instructions for getting Jekyll to work](http://jekyllrb.com/docs/windows/#installation). 
 
@@ -142,7 +142,7 @@ You can also check out the [Jekyll docs for more options](http://jekyllrb.com/do
 
 #### Windows 
 
-With Windoes you need wdm to enable the auto-regeneration to get it run ```gem install wdm```
+With Windows you need wdm to enable the auto-regeneration to get it run ```gem install wdm```
 
 Be sure to check out [other Windows errors](http://jekyll-windows.juthilo.com/5-running-jekyll/) and troubleshoot appropriately
 
