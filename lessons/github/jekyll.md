@@ -119,10 +119,34 @@ gem install bundler
 #### Windows 
 
  *Note:* I don't have a windows machine! 
- The directions are at: http://jekyll-windows.juthilo.com/ (and they are great!) 
+ 
+ The directions are at: http://jekyll-windows.juthilo.com/ (and they are great!) I'd use those over the ones below. 
  
  1) Download Ruby for Windows at: http://rubyinstaller.org/downloads/
+
  2) Install the Ruby Dev Kit at: http://rubyinstaller.org/downloads/ (for Ruby v2.0.0 look for ``` DevKit-mingw64 ```
+
  3) Follow the instructions at: http://jekyll-windows.juthilo.com/1-ruby-and-devkit/ to bind the DevKit to your Ruby installation
+
  4) Install the Jekyll gem ``` gem install jekyll ```
  
+ 5) Install Python at https://www.python.org/downloads/
+ 
+ 6) Get PIP at: https://pip.pypa.io/en/latest/installing/
+ 
+ 7) Install Python base of Pygments ``` python -m pip install Pygments ```
+ 
+
+
+### Running Jekyll and building 
+
+#### Mac 
+
+I use ```bundle exec jekyll serve``` and visit ``` http://localhost:4000 ``` on my favorite browser. 
+
+You can also check out the [Jekyll docs for more options](http://jekyllrb.com/docs/usage/) using ```jekyll build```
+
+#### Windows 
+
+
+
