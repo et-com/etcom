@@ -74,7 +74,7 @@ Let's take a few minutes to explore the jekyll-now repo, ask questions, and disc
 
 ## Setting up Jekyll locally 
 
-The great thing about using Jekyll is that, once it is all setup, you can develop locally and then push your content to GitHub. This part is a little more technical and 
+The great thing about using Jekyll is that, once it is all setup, you can develop locally and then push your content to GitHub. This part is a little more technical and I haven't refined the process for prime time (so we will have to work through this together) 
 
 ### What are the prerequisites? 
 
