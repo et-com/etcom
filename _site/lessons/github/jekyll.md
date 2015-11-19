@@ -104,6 +104,8 @@ These instructions are also posted at: https://help.github.com/articles/using-je
 
 You'll want version 2.0.0 or higher. If you don't have Ruby installed check out the [Ruby installation site](https://www.ruby-lang.org/en/documentation/installation/)
 
+2) Install RubyGems (a package manager for Ruby) by downloading it from: https://rubygems.org/pages/download
+
 2) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
 
 3) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
