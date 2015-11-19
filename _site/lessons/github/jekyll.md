@@ -106,16 +106,16 @@ You'll want version 2.0.0 or higher. If you don't have Ruby installed check out 
 
 2) Install RubyGems (a package manager for Ruby) by downloading it from: https://rubygems.org/pages/download
 
-2) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
+3) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
 
-3) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
+4) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
 
  1. Create a file in your repository called ```Gemfile``` 
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
  4. If not, run ```gem install jekyll``` (after updating my computer I had to rerun this command to get Jekyll working again) 
 
-4) Test if things are working 
+5) Test if things are working 
 
  1. ```ruby -v ``` to test Ruby 
  2. ```gem -v``` to test RubyGems
