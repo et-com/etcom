@@ -2,7 +2,7 @@
 
 This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now) to jump-start our learning (and experiment). 
 
-At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. 
+At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. However, I hope you'll be on your way to using Jekyll to publish your work on GitHub. 
 
 ## What is Jekyll? 
 
@@ -20,7 +20,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
+Jekyll allows you to write [posts and pages in Markdown]( studyGroup/_posts/2015-09-15-Introductory-Hacky-Hour.markdown) as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
 
 ## Setting up Jekyll 
 
