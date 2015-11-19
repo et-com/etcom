@@ -101,7 +101,7 @@ Three great places to find installation instructions:
  2. [Jekyll](http://jekyllrb.com/docs/installation/)
  3. [Jekyll for Windows](http://jekyll-windows.juthilo.com/) 
 
-All of the instrcutions below are derrived from one of the sources above. 
+All of the instructions below are derived from one of the sources above. 
 
 #### Mac 
 
@@ -115,12 +115,12 @@ You'll want version 2.0.0 or higher. If you don't have Ruby installed check out 
 
 3) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
 
-4) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
+4) Install Jekyll - Installing Jekyll is not too bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
 
  1. Create a file in your repository called ```Gemfile``` 
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
- 4. If not, run ```gem install jekyll``` (after updating my computer I had to rerun this command to get Jekyll working again) 
+ 5. Test ```jekyll -v``` if it gives you an error run ```gem install jekyll``` 
 
 5) Test if things are working 
 

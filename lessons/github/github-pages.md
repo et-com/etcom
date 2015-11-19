@@ -13,7 +13,7 @@ If you prefer to work locally, you can use the GitHub Desktop or the command lin
 The gist, you can create and host a static website on GitHub. 
 
 *What's static?*
-Static means the pages are not dynamically updated via a backend database, however, you can use JavaScript and other client-side technlogies to create great interactions. 
+Static means the pages are not dynamically updated via a database, however, you can use JavaScript and other client-side technologies to create great interactions. 
 
 ## What do you need to use GitHub Pages? 
 
@@ -37,7 +37,7 @@ With GitHub Pages you **can**:
 With GitHub pages you **cannot**:
 
  1. Run a database-driven website  
- 2. Control "backend" server-side features (like .htaccess or .conf)
+ 2. Control server-side features (like .htaccess or .conf)
  3. Use HTTPS - so don't do anything sensitive
 
 ## Time for a walk through
@@ -73,5 +73,5 @@ With GitHub pages you **cannot**:
 
 ## Be sure to also check out
 
- 1. How to create a project site from GitHub's automatic generator
+ 1. How to create a project site from [GitHub's automatic generator](https://pages.github.com/)
  2. How to create a project site by creating a gh-pages branch (note you can set this to the default branch) 
