@@ -96,6 +96,13 @@ For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windo
 
 ### Installation 
 
+Three great places to find installation instructions: 
+ 1. [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/)
+ 2. [Jekyll](http://jekyllrb.com/docs/installation/)
+ 3. [Jekyll for Windows](http://jekyll-windows.juthilo.com/) 
+
+All of the instrcutions below are derrived from one of the sources above. 
+
 #### Mac 
 
 These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
