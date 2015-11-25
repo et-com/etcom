@@ -2,7 +2,7 @@
 
 This lesson's intent is to help you get started using Jekyll to post materials to GitHub Pages. This lesson only covers the basics and we will be using [Barry Clark's jekyll-now repo](https://github.com/barryclark/jekyll-now) to jump-start our learning (and experiment). 
 
-At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. 
+At the end of the lesson, I have added some information (as much as I could) about installing Ruby, Bundle, and Jekyll. However, due to time constraints we may not get to everything. However, I hope you'll be on your way to using Jekyll to publish your work on GitHub. 
 
 ## What is Jekyll? 
 
@@ -20,7 +20,7 @@ What's that mean? You can use Jekyll to create a static blog for free using GitH
 
 ## Why use Jekyll? 
 
-Jekyll allows you to write posts and pages in Markdown as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
+Jekyll allows you to write [posts and pages in Markdown](https://github.com/bulib/studyGroup/blob/gh-pages/_posts/2015-09-15-Introductory-Hacky-Hour.markdown) as well as other text formats (like HTML or Liquid). Which can make writing a lot easier. Also, Jekyll builds your static site, which means you don't have to worry about databases, a cms, and dealing with comments - you can just write and publish.
 
 ## Setting up Jekyll 
 
@@ -46,7 +46,7 @@ layout: post
 title: You're up and running!
 ---
 ```
-Frontmatter is Jekyll's way of passing variables and build information. For example, the post above has the layout variable set to "post" and the title is "You're up and running!." To learn more, [check out all of Jekyll's variables](http://jekyllrb.com/docs/variables/). 
+Frontmatter is Jekyll's way of passing variables and build information. For example, the post above has the layout variable set to "post" and the title is "You're up and running!." To learn more, [check out all of Jekyll's variables](http://jekyllrb.com/docs/variables/). To see some frontmatter, check out your about.md file in the raw format on GitHub. 
 
 2) _config.yml is huge. This is where all of your configurations are stored. When Jekyll builds your site, it will look at the _config.yml file for options and variables.
 
@@ -64,9 +64,13 @@ Frontmatter is Jekyll's way of passing variables and build information. For exam
 
 **whew,** that was a lot but, hopefully, you can see how one file is put into one template, which can then be put into another template.
 
-5) _site is where the site is put after each build. It holds all your html, css, and js files 
+5) _scss is for sass, which Jekyll will convert to css. 
 
-6) _scss is for sass, which Jekyll will convert to css. 
+6) _site is where the site is put after each build. It holds all your html, css, and js files 
+
+**But wait, there's now _site folder!!** Time for the live build : ) run 
+
+```bundle exec jekyll serve```
 
 ## Play Time 
 
@@ -96,6 +100,13 @@ For detailed instructions, [see Julian Thilo's instructions](http://jekyll-windo
 
 ### Installation 
 
+Three great places to find installation instructions: 
+ 1. [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/)
+ 2. [Jekyll](http://jekyllrb.com/docs/installation/)
+ 3. [Jekyll for Windows](http://jekyll-windows.juthilo.com/) 
+
+All of the instructions below are derived from one of the sources above. 
+
 #### Mac 
 
 These instructions are also posted at: https://help.github.com/articles/using-jekyll-with-pages/
@@ -108,12 +119,12 @@ You'll want version 2.0.0 or higher. If you don't have Ruby installed check out 
 
 3) Install Bundler - With Ruby installed, installing Bundler is simple with: ``` gem install bundler ```
 
-4) Install Jekyll - Installing Jekyll is not to bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
+4) Install Jekyll - Installing Jekyll is not too bad, but in your repo you want to ensure you have a **Gemfile** (note your jekyll-now repo probably doesn't have a Gemfile) 
 
  1. Create a file in your repository called ```Gemfile``` 
  2. Add the line ``` gem 'github-pages' ``` to your Gemfile. ([or see this example](https://github.com/bulib/studyGroup/blob/gh-pages/Gemfile))
  3. Run the command ``` bundle install ``` and you should ready. 
- 4. If not, run ```gem install jekyll``` (after updating my computer I had to rerun this command to get Jekyll working again) 
+ 5. Test ```jekyll -v``` if it gives you an error run ```gem install jekyll``` 
 
 5) Test if things are working 
 
