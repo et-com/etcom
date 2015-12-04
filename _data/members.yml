@@ -38,9 +38,9 @@
     - Bio-Physics
     - Data Science
     - Machine Learning 
-  - name: Keith Ma
-    affiliation: Boston University Research Computing Services
-    github: keithfma
-    interests:
-      - Glacier Dynamics and Geomorpholgy
-      - Scientific Computing
+- name: Keith Ma
+  affiliation: Boston University Research Computing Services
+  github: keithfma
+  interests:
+    - Glacier Dynamics and Geomorpholgy
+    - Scientific Computing
