@@ -1,0 +1,66 @@
+1. Install (download and unzip) "RISE" from https://github.com/damianavila/RISE
+   - note that I have a git clone so only need to git pull
+
+2. In RISE directory, run the setup: "python setup.py install"
+    This creates a copy of reveal.js in the ipython customization directory ~/.ipython
+    By default, this installs into the default python profile: ~/.ipython/profile_default
+
+3. To modify slideshow theme and transition to my liking (can edit this):
+   ipython configureRISE.py.  However not everything can be configured
+   yet through the configuration manager, so you may want to edit the
+   config parameters directly.  
+
+   These are in ~/.jupyter/nbconfig/livereveal.json
+
+Mine looks like this:
+
+{
+  "theme": "beige", 
+  "transition": "fade", 
+  "leap_motion": {
+    "pointerOpacity": 0.5, 
+    "pointerColor": "#d80000", 
+    "naturalSwipe": true
+  }, 
+    "start_slideshow_at": "selected",
+    "scroll" : true
+}
+
+3.5:  To make style edits to livereveal overall, edit
+      in jupyter/ipython 4 this is now ~/Library/Jupyter/nbextensions/livereveal/main.css
+      For example,
+      	  * set the main 160% font scaling factor to 100% (for smaller
+	        room, ie, teaching)
+	 * set the codeMirror font size to 140% to make it larger and
+      clearer
+         * set the output from the interpreter to be larger
+eg:
+
+.reveal .slides {
+  text-align: left;
+  font-size: 100%; /* MEC changed */
+}
+
+div.output_subarea {
+    margin-top: 0.05em;
+    font-size: 140%;   /* MEC added */
+}
+.CodeMirror {
+  font-size: 140%;  /* MEC added */
+  max-width: 960px !important;  /* fix for firefox issue in IPython, 1240px */
+}
+
+3.6: More config possibilities in livereveal/main.js
+     eg, remove controls in lower right
+
+3.7: Add a QT console button so that figures can be manipulated, etc,
+outside of the notebook.   This is done by editing ~/.jupyter/custom/custom.js
+
+4. Running:  jupyter notebook
+
+5. To create slides, turn on the "cell toolbar" and set to slideshow
+    Using the toolbar, mark cells as "slides" or "fragments" (which are displayed on keyclick)
+    To use "subslide" need to use command-downarrow (pagedown)
+
+6. option-R (or slideshow button upper right) flips between normal and slideshow
+     capital-F to go to fullscreen 
