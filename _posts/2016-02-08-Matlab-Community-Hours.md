@@ -11,7 +11,7 @@ date: 2016-02-10
 *
 * Update! 
 *
-* Due to today's storm this session will be Feb. 10 
+* Due to today's storm (2/8) this session will be Feb. 10 
 * from 5:00-6:00 in MCS 148
 *
 *************/
