@@ -3,7 +3,7 @@ title: MATLAB Community Office Hours
 text: 
 location: MCS 148 - 5:00-6:30 
 link: https://github.com/bulib/studyGroup/issues/32
-date: 2016-02-10
+date: 2016-02-08
 ---
 
 ```
