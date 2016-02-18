@@ -44,3 +44,9 @@
   interests:
     - Glacier Dynamics and Geomorpholgy
     - Scientific Computing
+- name: Chris Holden
+  affiliation: Boston University Dept. of Earth and Environment
+  github: ceholden
+  interests:
+    - Mapping changes on Earth using time series of satellite data
+    - Python
