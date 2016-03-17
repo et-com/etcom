@@ -13,6 +13,7 @@ This lesson is split into two parts to demonstrate two methods for creating pres
 To follow along with the first method, you will need:
 1. A copy of `reveal.js`
     * https://github.com/hakimel/reveal.js/releases
+    * e.g., `git clone https://github.com/hakimel/reveal.js.git`
 2. A text editor
 
 To follow along with the second method, you will also need:
@@ -69,7 +70,7 @@ We will use `pandoc` to convert our example Markdown document into a HTML slides
 With our copy of `reveal.js` located and a Markdown document to convert, we can use `pandoc` to convert our slides:
 
 ```
-pandoc -t revealjs -V revealjs-url=reveal.js --standalone -o example_slideshow.html example_slideshow.md
+pandoc -t revealjs -V revealjs-url=reveal.js --standalone -i -o example_slideshow.html example_slideshow.md
 ```
 
 You can open this output `example_slideshow.html` in your web-browser to see what the slideshow looks like.
@@ -79,6 +80,7 @@ Argument explanation:
 * The `-V` flag defines [a variable for the slideshow](http://pandoc.org/README.html#variables-for-slides)
 * The `-V revealjs-url=[URL]` tells `pandoc` where to look for the `reveal.js` installation
 * The `--standalone` option will embed the Javascript required for `revea.js` to run inside the output HTML document
+* The `-i` makes list items appear incrementally (e.g., as `fragments`)
 * The `-o example_slideshow.html` is how we specify the output filename (`example_slideshow.html`)
 * Finally, we point `pandoc` to our Markdown document, `example_slideshow.md`
 
