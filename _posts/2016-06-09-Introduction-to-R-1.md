@@ -1,7 +1,7 @@
 ---
 title: Introduction to R - part 1
 text: 
-location: CAS 132
+location: STO 132
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-09
 ---
@@ -13,6 +13,6 @@ If you've ever wanted to start learning R. This workshop is for you!
 **[Register! Space is limited.](http://goo.gl/forms/xMDH83S6Y1BrrCYt1)**
 
 Time: 1-4 
-Location: CAS 132
+Location: STO 132
 
 After the session, we'll head to the BU Pub for a "Hacky Hour." 
