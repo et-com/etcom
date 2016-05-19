@@ -15,6 +15,6 @@ If you've ever wanted to start learning R. This workshop is for you!
 **[Register! Space is limited.](http://goo.gl/forms/xMDH83S6Y1BrrCYt1)**
 
 Time: 1-4 
-Location: STO 435/435B 
+Location: STO 132
 
 After the session, we'll head to the BU Pub for a "Hacky Hour." 
