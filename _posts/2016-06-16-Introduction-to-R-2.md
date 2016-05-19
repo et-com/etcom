@@ -6,7 +6,7 @@ link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-16
 ---
 
-This follow up introduction to using R continue from our first [Software Carpentry](http://swcarpentry.github.io/shell-novice/) inspired session. 
+This follow up session on R continues from last week's [Software Carpentry](http://swcarpentry.github.io/r-novice-inflammation/) inspired session. 
 
 If you couldn't make the first session, feel free to join us. If you're new to R, take a few minutes to review the first lesson.  
 
