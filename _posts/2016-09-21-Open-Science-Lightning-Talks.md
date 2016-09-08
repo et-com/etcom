@@ -6,7 +6,7 @@ link: https://github.https://github.com/bulib/studyGroup/issues/60
 date: 2016-09-21
 ---
  
-Join us for our first session of the semester. We are going to start this term with a lightning talk session on concepts and tools for practicing Open Science. The topic / tool / speakers will be: 
+Join us for our first session of the semester. We are going to start this term with a lightning talk session on concepts and tools for practicing open science. The topic / tool / speakers will be: 
 
 + Version Control / Git / Betsy
 + Literate Programming / Jupyter Notebooks / Tom
