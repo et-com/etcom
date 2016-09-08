@@ -2,7 +2,7 @@
 title: Open Science Lightning Talks
 text: 
 location: Estin Room - Mugar Library
-link: https://github.https://github.com/bulib/studyGroup/issues/60
+link: https://github.com/bulib/studyGroup/issues/60
 date: 2016-09-21
 ---
  

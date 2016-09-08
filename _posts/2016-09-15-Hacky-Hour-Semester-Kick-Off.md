@@ -2,7 +2,7 @@
 title: Semester Kickoff (Hacky Hour aka Social Event)
 text: 
 location: TBD
-link: https://github.https://github.com/bulib/studyGroup/issues/59
+link: https://github.com/bulib/studyGroup/issues/59
 date: 2016-09-15
 ---
 
