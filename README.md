@@ -1,7 +1,7 @@
-BU Study Group a Mozilla Study Groups
+BU Study Group (a [Mozilla Study Group](https://www.mozillascience.org/))
 ============
 
-Welcome to [Mozilla Science Lab](https://www.mozillascience.org/)'s Study Group project! From here, we'll set you up with everything you need to start your own study group.
+Welcome to BU's Study Group. We are a group of students, staff, and researchers interested in open science, coding, reproducible research, and research. We're an open group and anyone associated with BU is welcome to join, attend, or lead a session. 
 
 ### Wait What's a 'Mozilla Study Group'?
 
