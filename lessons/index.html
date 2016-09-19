@@ -1,0 +1,47 @@
+---
+layout: lesson
+---
+
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Lesson Archive</h2>
+                    <h3 class="section-subheading text-muted">Our past lessons</h3>
+                </div>
+            </div>
+            <div class="col-lg-12">
+              <ul class='events'>
+              
+              {% for post in site.posts %}
+             	{% if post.repo  %}
+	                
+        
+                  <li>
+                    <div class="bu-event row">
+                      <div class="bu-event-date col-lg-2 col-lg-offset-2">
+                        <ul>
+                          <li>{{ post.date | date: "%B" }}</li>
+                          <li>{{ post.date | date: "%-d" }}</li> 
+                          <li>{{ post.date | date: "%Y"}}<li>
+                        </ul>
+                      </div> 
+                      <div class="col-lg-6">
+                        <a class='eventTitle' href="{{ post.repo }}">
+                          <h3>{{ post.title }}</h3>
+                          <h5>by {{ post.author }}</h5> 
+                        </a>
+                        <div class="eventDesc"> 
+                        	<strong>Announcement Text from {{ post.date | date: "%B" }} {{ post.date | date: "%-d" }}, {{ post.date | date: "%Y"}} :</strong> {{ post.content }} 
+                        </div> 
+                      </div> 
+                    </div>         
+                  </li>
+                {% endif %}
+              {% endfor %}
+            
+              </ul>
+            </div>
+        </div>
+    </section>
