@@ -15,9 +15,8 @@ layout: lesson
               <ul class='events'>
               
               {% for post in site.posts %}
-             	{% if post.repo  %}
+             	{% if post.archive %}
 	                
-        
                   <li>
                     <div class="bu-event row">
                       <div class="bu-event-date col-lg-2 col-lg-offset-2">
@@ -30,8 +29,24 @@ layout: lesson
                       <div class="col-lg-6">
                         <a class='eventTitle' href="{{ post.repo }}">
                           <h3>{{ post.title }}</h3>
-                          <h5>by {{ post.author }}</h5> 
-                        </a>
+                          {% if post.leader %}
+                        </a> 
+                            <h5>Leader: {{ post.leader }}</h5>
+                          {% endif %} 
+                          {% if post.etherpad or post.etherpad-text or post.repo  %} <p>Additional Resources</p> 
+                            {% endif %}
+                          <ul> 
+                            {% if post.etherpad %}
+                              <li><a href="{{ post.etherpad }}">Etherpad</a></li> 
+                             {% endif %}
+                            {% if post.etherpad-text %}
+                              <li><a href="{{ post.text }}">Etherpad (Text Version)</a></li> 
+                            {% endif %}
+                            {% if post.repo %}
+                              <li><a href="{{ post.repo }}">Repository</a></li> 
+                            {% endif %}
+                          </ul> 
+                       <br> 
                         <div class="eventDesc"> 
                         	<strong>Announcement Text from {{ post.date | date: "%B" }} {{ post.date | date: "%-d" }}, {{ post.date | date: "%Y"}} :</strong> {{ post.content }} 
                         </div> 
