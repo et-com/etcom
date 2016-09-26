@@ -4,6 +4,11 @@ text:
 location: STO 132
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-23
+archive: Y  
+leader: Will Kearney and Chris Holden 
+etherpad: https://public.etherpad-mozilla.org/p/BU-Version-Control
+etherpad-text: 
+repo: http://swcarpentry.github.io/git-novice/
 ---
 
 Inspired by [Software Carpentry](http://swcarpentry.github.io/git-novice/) this session is designed to help you to become more familiar with [version control](https://en.wikipedia.org/wiki/Version_control) and using [git](https://git-scm.com/). Version control can help you collaborate, better track your work, and greatly facilitates documenting your work. 

@@ -4,6 +4,11 @@ text:
 location: STO 132
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-02
+archive: Y  
+leader: Will Kearney & Chris Holden 
+etherpad: https://public.etherpad-mozilla.org/p/BU-Unix
+etherpad-text: 
+repo: http://swcarpentry.github.io/shell-novice/index.html
 ---
 
 Inspired by [Software Carpentry](http://swcarpentry.github.io/shell-novice/) this session is designed to help new programmers and coders become more familiar with [Unix](https://en.wikipedia.org/wiki/Unix) and using the [shell](https://en.wikipedia.org/wiki/Shell_%28computing%29). [Will Kearney](https://github.com/wkearn) will be leading us through navigating files, making directories, creating files, using pipes, and making filters.

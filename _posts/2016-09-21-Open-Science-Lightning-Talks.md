@@ -4,6 +4,11 @@ text:
 location: Estin Room - Mugar Library
 link: https://github.com/bulib/studyGroup/issues/60
 date: 2016-09-21
+archive: Y  
+leader: Will Kearney, Chris Holden, Alexey Shiklomanov, Betsy Cowdery, and Tom Hohenstein
+etherpad: https://public.etherpad-mozilla.org/p/BU-Open-Science-Lightning-Talks
+etherpad-text: 
+repo: https://github.com/bulib/studyGroupLessons/tree/gh-pages/lessons/lightning-talks
 ---
  
 Join us for our first session of the semester. We are going to start this term with a lightning talk session on concepts and tools for practicing open science. The topic / tool / speakers will be: 
