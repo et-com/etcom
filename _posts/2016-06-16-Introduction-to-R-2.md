@@ -5,7 +5,7 @@ location: STO 132
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-16
 archive: Y  
-leader: Alexey Shiklomanov, Chris Holden, Will Kearney
+leader: Alexey Shiklomanov, Chris Holden, and Will Kearney
 etherpad: https://public.etherpad-mozilla.org/p/BU-R2
 etherpad-text: 
 repo: http://swcarpentry.github.io/r-novice-inflammation/

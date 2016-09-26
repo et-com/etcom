@@ -5,7 +5,7 @@ location: STO 132
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
 date: 2016-06-02
 archive: Y  
-leader: Will Kearney & Chris Holden 
+leader: Will Kearney and Chris Holden 
 etherpad: https://public.etherpad-mozilla.org/p/BU-Unix
 etherpad-text: 
 repo: http://swcarpentry.github.io/shell-novice/index.html
