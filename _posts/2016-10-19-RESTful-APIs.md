@@ -1,9 +1,11 @@
 ---
-title: Coworking Session
+title: RESTful APIs
 text: 
-location: Stone Science 442
-link: https://github.com/bulib/studyGroup/issues/31
-date: 2016-04-07
+location: Estin Room 
+link: https://github.com/bulib/studyGroup/issues/67
+date: 2016-10-19
 ---
 
-Stop in to [STO 442 on April 7 from 5-7](https://github.com/bulib/studyGroup/issues/31) for a coworking session. Coworking sessions are a great opportunity to get some work done in an informal, collaborative atmosphere. 
+This week we will be covering [RESTful APIs](https://github.com/bulib/studyGroup/issues/67), how to access them, and the common data types they return. RESTful APIs are great for gathering existing datasets for your research. [Joshua Klein](https://github.com/mobiusklein) and [Betsy Cowdery](https://github.com/bcow) will be leading the discussion. 
+
+Join us in the Estin Room (Mugar Library - Room 302) at 6:00. 
