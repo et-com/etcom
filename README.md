@@ -9,13 +9,13 @@ Welcome to BU's Study Group. We are a group of students, staff, and researchers 
 - [Introduce yourself!](https://github.com/bulib/studyGroup/issues/77)
 - Have a question or something you'd like to learn about? [Create an issue!](https://github.com/bulib/studyGroup/issues/new)
 
+## Wait What's a 'Mozilla Study Group'?
+
+Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
+
 ## View our lessons and talks 
 
 We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
-
-### Wait What's a 'Mozilla Study Group'?
-
-Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
 
 ## For Participants
 
