@@ -7,6 +7,7 @@ Welcome to BU's Study Group. We are a group of students, staff, and researchers 
 
 - Check out our issues labeled ["Getting Started"](https://github.com/bulib/studyGroup/labels/getting-started)
 - [Introduce yourself!](https://github.com/bulib/studyGroup/issues/77)
+- Check out our upcoming [sessions](https://github.com/bulib/studyGroup/labels/session).
 - Have a question or something you'd like to learn about? [Create an issue!](https://github.com/bulib/studyGroup/issues/new)
 - New to git and Github? Check out the tutorials at the top of [Github's Help](https://help.github.com). You can always [ask us](https://github.com/bulib/studyGroup/issues/new) if you need some help.
 - Watch this repo: Click the button that says 'Watch' in the top right of the page to get email notifications of issues. If you don't want email, you can change your settings in Settings -> Notification Center (click on the little cog in the top right).
