@@ -3,21 +3,21 @@ BU Study Group (a [Mozilla Study Group](https://www.mozillascience.org/))
 
 Welcome to BU's Study Group. We are a group of students, staff, and researchers interested in open science, coding, reproducible research, and research. We're an open group and anyone associated with BU is welcome to join, attend, or lead a session. 
 
-## View our lessons and talks 
+## Getting started
 
-We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
+- Check out our issues labeled ["Getting Started"](https://github.com/bulib/studyGroup/labels/getting-started)
+- [Introduce yourself!](https://github.com/bulib/studyGroup/issues/77)
+- Check out our upcoming [sessions](https://github.com/bulib/studyGroup/labels/session).
+- Have a question or something you'd like to learn about? [Create an issue!](https://github.com/bulib/studyGroup/issues/new)
+- New to git and Github? Check out the tutorials at the top of [Github's Help](https://help.github.com). You can always [ask us](https://github.com/bulib/studyGroup/issues/new) if you need some help.
+- Watch this repo: Click the button that says 'Watch' in the top right of the page to get email notifications of issues. If you don't want email, you can change your settings in Settings -> Notification Center (click on the little cog in the top right).
+- Check out our [code of conduct](codeOfConduct.md)
+- Feel free to add yourself to the "Who We Are" section of the website. Click on Branch and select `gh-pages` to get taken to the website branch. Under `_data`, you'll find a file called `members.yml`. If you want to try out your git skills, [fork the repository](https://help.github.com/articles/fork-a-repo/), add your data to `members.yml` and [open a pull request](https://help.github.com/articles/about-pull-requests/). Or just create an issue, and we'll help you out!
 
-### Wait What's a 'Mozilla Study Group'?
+## Wait What's a 'Mozilla Study Group'?
 
 Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
 
-## For Participants
+## View our lessons and talks 
 
-Welcome to our Mozilla Study Group! A few things to do & know now that you're here:
-
- - **Watch this repo:** up in the top right, there's a button that says 'Watch'; click it, and set yourself to 'Watching'. This will send you email notifications of new discussions; if you don't want email, but would like an alert just on GitHub, change the setting in Settings -> Notification Center (Settings is the little cog in the top right).
- - **Check out the issue tracker:** click on 'issues' in the sidebar on the right; this is where all the conversations this study groups is having live. Use this space to ask questions, request events, make suggestions, or just say hi.
- - **Read the code of conduct:** this Study Group is for everyone - we abide by a [set of rules](https://www.mozillascience.org/code-of-conduct/) that require everyone be treated with respect. Help us make a space where everyone feels welcome, and we'll all have a better time!
- - **Add yourself to the website:** If you'd like to appear on the website under the 'Who we Are' section, have a look at the `_data/members.yml`; send us a pull request with an entry for yourself, or open an issue and we'll do it for you.
-
-
+We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
