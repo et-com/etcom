@@ -3,6 +3,12 @@ BU Study Group (a [Mozilla Study Group](https://www.mozillascience.org/))
 
 Welcome to BU's Study Group. We are a group of students, staff, and researchers interested in open science, coding, reproducible research, and research. We're an open group and anyone associated with BU is welcome to join, attend, or lead a session. 
 
+## Getting started
+
+- Check out our issues labeled ["Getting Started"](https://github.com/bulib/studyGroup/labels/getting-started)
+- [Introduce yourself!](https://github.com/bulib/studyGroup/issues/77)
+- Have a question or something you'd like to learn about? [Create an issue!](https://github.com/bulib/studyGroup/issues/new)
+
 ## View our lessons and talks 
 
 We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
