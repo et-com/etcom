@@ -1,7 +1,9 @@
 BU Study Group (a [Mozilla Study Group](https://www.mozillascience.org/))
 ============
 
-Connect with like-minded researchers at a fun, informal meetup where participants share skills, experiences, and ideas around open science, open source, code, and community in research.
+Connect with like-minded researchers at a fun, informal meetup where participants share skills, experiences, and ideas around open research, open source, code, and community in research.
+
+Researchers come to BU with diverse experiences with programming and open research, from postdocs who have contributed to major open science projects, to graduate students hoping to get their labs on the open science bandwagon, to new graduate students who may never have programmed before. The Study Group is a place to learn from these diverse experiences to enhance BU's open research capacities.
 
 ## Getting started
 
