@@ -16,10 +16,6 @@ Researchers come to BU with diverse experiences with programming and open resear
 - Check out our [code of conduct](codeOfConduct.md)
 - Feel free to add yourself to the "Who We Are" section of the website. Click on Branch and select `gh-pages` to get taken to the website branch. Under `_data`, you'll find a file called `members.yml`. If you want to try out your git skills, [fork the repository](https://help.github.com/articles/fork-a-repo/), add your data to `members.yml` and [open a pull request](https://help.github.com/articles/about-pull-requests/). Or just create an issue, and we'll help you out!
 
-## Wait What's a 'Mozilla Study Group'?
-
-Mozilla Study Groups are fun, informal meetups of your friends and colleagues from around your local institution or town to share skills, stories and ideas on using code for research. The goal is to create a friendly, no-pressure environment where people can share their work, ask for help on a coding problem, and learn and work together with their peers.
-
 ## View our lessons and talks 
 
 We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
