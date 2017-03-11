@@ -20,4 +20,4 @@ Mozilla Study Groups are fun, informal meetups of your friends and colleagues fr
 
 ## View our lessons and talks 
 
-We keep our lessons and talks in a seperate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
+We keep our lessons and talks in a separate repository - [studyGroupLessons](https://github.com/bulib/studyGroupLessons) - to help keep things organized. Take a minute to check them out! 
