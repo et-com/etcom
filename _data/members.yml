@@ -1,7 +1,8 @@
-- name: Bill Mills
-  affiliation: Mozilla Science Lab
-  github: BillMills
+- name: Mesfin Diro
+  affiliation: Addis Ababa University
+  github: mesfind
   interests:
+    - Data Science
     - Programming
     - Open Science
 - name: Tom Hohenstein
