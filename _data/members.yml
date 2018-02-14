@@ -1,59 +1,31 @@
+- name: Margareth Gfrerer
+  affiliation: ESC
+  github: Margareth-Gfrerer
+  interests:
+    - Data Literacy
+    - Open Science
 - name: Mesfin Diro
-  affiliation: Addis Ababa University
-  github: mesfind
+  affiliation: AAU
+  github: MesfinD
   interests:
-    - Data Science
+    - Data Science 
     - Programming
+    - HPC
+- name: Dagim Yoseph
+  affiliation: AAU
+  github: dagimy
+  interests:
+    - Economics 
+    - Operations Research
+- name: Wubnesh Shiferaw
+  affiliation: HERQA
+  github: 
+  interests:
+    - Data Literacy
+    - Open Science 
+- name: Bonny Adane
+  affiliation: AAU
+  github: 
+  interests:
+    - Data Literacy
     - Open Science
-- name: Tom Hohenstein
-  affiliation: Boston University Libraries
-  github: tomhohenstein
-  interests:
-    - Data Management
-    - Open Science
-    - Libraries
-- name: Alexey Shiklomanov
-  affiliation: Boston University Dept. of Earth and Environment
-  github: ashiklom
-  interests:
-    - Terrestrial ecology
-    - Statistical modeling
-    - Remote sensing
-- name: Tony Gardella
-  affiliation: Boston University Dept. of Earth and Environment
-  github: tonygardella
-  interests:
-    - Data Science
-    - Ecology
-    - Environmental Policy 
-- name: Ashish Bino George
-  affiliation: Boston University Dept. of Physics
-  github: legolagon 
-  interests:
-    - Physics
-    - Simple models  
-- name: Aadrian Yi
-  affiliation: Boston University Dept. of Physics
-  github: adrianyi  
-  interests:
-    - Bio-Physics
-    - Data Science
-    - Machine Learning 
-- name: Keith Ma
-  affiliation: Boston University Research Computing Services
-  github: keithfma
-  interests:
-    - Glacier Dynamics and Geomorpholgy
-    - Scientific Computing
-- name: Chris Holden
-  affiliation: Boston University Dept. of Earth and Environment
-  github: ceholden
-  interests:
-    - Mapping changes on Earth using time series of satellite data
-    - Python
-- name: Will Kearney
-  affiliation: Boston University Dept. of Earth and Environment
-  github: wkearn
-  interests:
-    - Wetland science
-    - Environmental signal processing
