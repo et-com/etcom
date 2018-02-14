@@ -3,9 +3,9 @@
 
 
 #Step 1: give your study group a name and a short description:
-title: Boston University Study Group
+title: R-Ladies Addis Study Group
 description: "Building more"
-url: http://study.bu.edu/
+url: 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
 
@@ -19,7 +19,7 @@ url: http://study.bu.edu/
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome to BU's Study Group!"
+headlineSmall: "Welcome to R-Ladies Addis's Study Group!"
 headlineMain: "Let's Work Together"
 
 # Setup Google Calendar
