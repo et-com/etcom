@@ -1,4 +1,4 @@
-BU's Study Groups
+R-Ladies Addis's Study Groups
 
 Thank you for visiting [R-Ladies's Study Group.](http://study.bu.edu) This group is designed to bring everyone in the BU community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
 
