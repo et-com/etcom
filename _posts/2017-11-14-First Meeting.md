@@ -3,7 +3,7 @@ title: 1st General Meetup for R-Ladies Addis
 text: 
 archive: Y
 location: Education Strategy Center, Room 210
-link: https://github.com/R-Ladies-Addis/studyGroup/issues/1
+link: https://github.com/mesfind/rladies-addis/issues/5
 date: 2017-11-14
 startTime: '14:00'
 endTime: '16:00'
