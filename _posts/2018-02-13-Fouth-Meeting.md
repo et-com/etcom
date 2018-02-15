@@ -5,3 +5,4 @@ location: Education Strategy Center
 link: 
 date: 2018-02-13
 ---
+Monthly meeting & R training session
