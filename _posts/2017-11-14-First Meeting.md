@@ -1,4 +1,3 @@
-
 ---
 title: 1st General Meetup for R-Ladies Addis
 text: 
