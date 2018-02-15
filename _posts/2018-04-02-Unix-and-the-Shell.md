@@ -17,7 +17,6 @@ If you've ever wanted an introduction to Unix commands and using the shell. This
 
 **[Register! Space is limited.](http://goo.gl/forms/xMDH83S6Y1BrrCYt1)**
 
-Time: 1-4 
-Location: STO 132
+Time: 2-4 PM
+Location: ESC
 
-After the session, we'll head to the BU Pub for a "Hacky Hour." 
