@@ -1,9 +1,9 @@
 ---
 title: Introduction to Unix and the Shell 
 text: 
-location: STO 132
+location: ESC
 link: http://goo.gl/forms/xMDH83S6Y1BrrCYt1
-date: 2016-06-02
+date: 2018-04-02
 archive: Y  
 leader: Mesfin Diro
 etherpad: https://public.etherpad-mozilla.org/p/BU-Unix
