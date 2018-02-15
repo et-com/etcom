@@ -1,6 +1,6 @@
-BU's Study Groups
+R-Ladies's Study Groups
 
-Thank you for visiting [BU's Study Group.](http://study.bu.edu) This group is designed to bring everyone in the BU community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
+Thank you for visiting [R-Ladies's Study Group.](http://study.bu.edu) This group is designed to bring everyone in the BU community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
 
 [![Join the chat at https://gitter.im/bulib/studyGroup](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bulib/studyGroup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
