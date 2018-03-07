@@ -3,9 +3,9 @@
 
 
 #Step 1: give your study group a name and a short description:
-title: R-Ladies Addis Study Group
+title: R-Ladies Axum Study Group
 description: "Building more"
-url: https://mesfind.github.io/rladies-addis/
+url: https://r-ladies-addis.github.io/rladies-axum/
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
 
@@ -19,7 +19,7 @@ url: https://mesfind.github.io/rladies-addis/
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome to R-Ladies Addis's Study Group!"
+headlineSmall: "Welcome to R-Ladies Axum's Study Group!"
 headlineMain: "Let's Build a Vibrant R Community in Ethiopia"
 
 # Setup Google Calendar
