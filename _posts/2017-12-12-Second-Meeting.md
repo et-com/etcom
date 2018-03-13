@@ -1,9 +1,0 @@
----
-title: 1st General Meetup for R-Ladies Addis
-text: 
-archive: Y
-location: Education Strategy Center, Room 210
-link: https://github.com/mesfind/rladies-addis/issues/6
-date: 2017-11-14
----
-This month we will discuss our R Ladies training activities for January and February 2018 as well as the R competition scheduled for March 2018. Anybody is welcome.
