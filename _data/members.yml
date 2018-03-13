@@ -1,9 +1,3 @@
-- name: Margareth Gfrerer
-  affiliation: ESC
-  github: Margareth-Gfrerer
-  interests:
-    - Data Literacy
-    - Open Science
 - name: Mesfin Diro
   affiliation: AAU
   github: mesfind
@@ -17,15 +11,5 @@
   interests:
     - Economics 
     - Operations Research
-- name: Wubnesh Shiferaw
-  affiliation: HERQA
-  github: 
-  interests:
-    - Data Literacy
-    - Open Science 
-- name: Bonny Adane
-  affiliation: AAU
-  github: 
-  interests:
-    - Data Literacy
-    - Open Science
+- name: Berhanu Bekele
+  affilation: AAU
