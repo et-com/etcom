@@ -12,4 +12,18 @@
     - Economics 
     - Operations Research
 - name: Berhanu Bekele
-  affilation: AAU
+  affiliation: AAU
+  github: BerehanuB
+  interests:
+    - Geodesy
+- name: Mesay
+  affiliation: AAU
+  github: dagimy
+  interests:
+    - Geophysics
+  
+- name: Berhanu Abera
+  affiliation: AAU
+  github: BirhanuA
+  interests:
+    - Sesimology
