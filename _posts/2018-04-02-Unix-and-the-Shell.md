@@ -18,4 +18,4 @@ If you've ever wanted an introduction to Unix commands and using the shell. This
 Time: 2-4 PM
 Location: Addis Ababa University
 
-![Register](https://goo.gl/forms/Nf97reXlisqg7mOW2){: class="btn btn-xl follow} 
+![Register](https://goo.gl/forms/Nf97reXlisqg7mOW2){: class=btn btn-xl follow} 
