@@ -15,7 +15,7 @@ Inspired by [Software Carpentry](http://swcarpentry.github.io/shell-novice/) thi
 
 If you've ever wanted an introduction to Unix commands and using the shell. This workshop is for you! 
 
-<a  class="btn btn-xl" https://goo.gl/forms/Nf97reXlisqg7mOW2> Register </a>
+<a href="https://goo.gl/forms/Nf97reXlisqg7mOW2" class="btn btn-xl"> Register </a>
 
 Time: 2-4 PM
 Location: Addis Ababa University
