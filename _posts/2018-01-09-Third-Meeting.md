@@ -1,7 +1,7 @@
 ---
 title: Monthly Meeting
 text: Data organization, Cleaning and analysis
-location: Education Strategy Center
+location: Addid Ababa University
 archive: Y
 link: 
 repo: http://swcarpentry.github.io/git-novice/
