@@ -49,6 +49,40 @@
               </div>
               {% endif %}
               </ul>
+                <!--past events-->
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center" role="tab" id="headingOne">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class='btn btn-xl'>
+                        {{site.data[site.language].pastEvents}} Our Past Events
+                      </a>
+                    
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <ul class='events'>
+                        {% assign isEvent = 0 %}
+                        {% for post in site.posts reversed %}
+                          {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                          {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
+                          {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                          {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
+                          {% assign postday = postday | plus: 0 %}
+                          {% assign nowday = nowday | minus: 2 %}
+                          {% if postyear < nowyear or postday < nowday and postyear == nowyear %}
+                            <li>
+                              <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}} </a>
+                              <div class='eventSub'>{{ post.text }}</div>
+                            </li>
+                          {% endif %}
+                        {% endfor %}
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                
             </div>
             <div class="followUs col-lg-12">
               <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
