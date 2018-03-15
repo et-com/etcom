@@ -2,7 +2,7 @@
 title: Introduction to Unix and the Shell 
 text: 
 location: Addis Ababa University
-link: https://goo.gl/forms/Nf97reXlisqg7mOW2
+link: https://mesfind.github.io/2018-03-29-SWC-HU
 date: 2018-03-29
 archive: Y  
 leader: Mesfin Diro
