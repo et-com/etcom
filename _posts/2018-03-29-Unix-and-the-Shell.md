@@ -16,6 +16,7 @@ Inspired by [Software Carpentry](http://swcarpentry.github.io/shell-novice/) thi
 If you've ever wanted an introduction to Unix commands and using the shell. This workshop is for you! 
 
 Time: 9 AM -5 PM
+
 Location: Hawassa University
 
 [Register](https://goo.gl/forms/Nf97reXlisqg7mOW2){:class="btn btn-xl"} 
