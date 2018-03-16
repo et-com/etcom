@@ -1,5 +1,5 @@
 - name: Mesfin Diro
-  affiliation: AAU
+  affiliation: Addis Ababa University
   github: mesfind
   interests:
     - Data Science 
@@ -11,33 +11,41 @@
     - Economics 
     
 - name: Berhanu Bekele
-  affiliation: AAU
-  github: BerehanuB
+  affiliation: Addis Ababa University
+  github: 
   interests:
     - Geodesy
 - name: Mesay
-  affiliation: AAU
+  affiliation: Arbamich University
   github: mesay
   interests:
     - Geophysics
   
 - name: Berhanu Abera
-  affiliation: AAU
+  affiliation: Addis Ababa University
   github: BirhanuA
   interests:
     - Sesimology
 - name: Alemyehu Mengesha
-  affiliation: AAU
+  affiliation: Addis Ababa University
   github: 
   interests:
     - Space Science
     
 - name: Yedilfana Setarge
-  affiliation: AAU
+  affiliation: Addis Ababa University
   github: 
   interests:
     - Energy Storage
     - Envronmental Science
-    -Chemistry
+    - Chemistry
+    
+- name: Natei Ermias
+  affiliation: Addis Ababa University
+  github: 
+  interests:
+    - Energy Storage
+    - Envronmental Science
+    - Chemistry
     
 
