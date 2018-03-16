@@ -3,7 +3,7 @@
 
 
 #Step 1: give your study group a name and a short description:
-title: PyCon ET
+title: PyEthiopia
 description: "Building more"
 url: https://mesfind.github.io/PyEthiopia/
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
@@ -19,7 +19,7 @@ url: https://mesfind.github.io/PyEthiopia/
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome to Ethiopian's PyCon!"
+headlineSmall: "Welcome to Ethiopian's Python Community!"
 headlineMain: "Let's Build a Vibrant Python Community in Ethiopia"
 
 # Setup Google Calendar
