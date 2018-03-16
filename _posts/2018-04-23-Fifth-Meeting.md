@@ -6,4 +6,4 @@ link:
 archive: Y
 date: 2018-04-23
 ---
-Monthly Metting session
+Monthly Meeting session and github training sessions
