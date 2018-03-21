@@ -15,7 +15,13 @@
   github: BerhanuBekele 
   interests:
     - Geodesy
-- name: Mesay
+- name: Birbiraw Derese
+  affiliation: Addis Ababa University
+  github:
+  interests:
+    - Geodesy
+    
+- name: Mesay Geletu
   affiliation: Arbamich University
   github: mesay
   interests:
@@ -26,6 +32,7 @@
   github: BirhanuAbera
   interests:
     - Sesimology
+    
 - name: Alemyehu Mengesha
   affiliation: Addis Ababa University
   github: 
