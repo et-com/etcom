@@ -38,13 +38,7 @@
   github: BirhanuAbera
   interests:
     - Sesimology
-    
-- name: Alemyehu Mengesha
-  affiliation: Addis Ababa University
-  github: 
-  interests:
-    - Space Science
-    
+        
 - name: Yedilfana Setarge
   affiliation: Addis Ababa University
   github: 
@@ -69,5 +63,9 @@
   interests:
     - Space Physics
     
-    
+- name: Alemyehu Mengesha
+  affiliation: Addis Ababa University
+  github: 
+  interests:
+    - Space Science 
 
