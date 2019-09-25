@@ -1,4 +1,4 @@
-Addis's Study Groups
+Ethiopian Energy Groups
 
 Thank you for visiting. This group is designed to bring everyone in the Ethiopian Energy community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
 
