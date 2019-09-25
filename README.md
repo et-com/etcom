@@ -1,12 +1,6 @@
-R-Ladies Addis's Study Groups
+Addis's Study Groups
 
-Thank you for visiting [R-Ladies's Study Group.](http://study.bu.edu) This group is designed to bring everyone in the BU community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
-
-[![Join the chat at https://gitter.im/bulib/studyGroup](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bulib/studyGroup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-We are using [Github's issue tracker](https://github.com/bulib/studyGroup/issues) to suggest events and to post discussion items. It is a little bit of a workaround but the functionality is great (and the cost is free : ).
-
-Please add a comment to say hello. If you're interested in learning a new technology or sharing something you know, create a new issue. 
+Thank you for visiting. This group is designed to bring everyone in the Ethiopian Energy community interested in improving their code, enhancing their data analysis abilities, building new skills, and working in a collaborative environment together. We are a community-led group that's open to new ideas and here to work with you.
 
 ### Wait What's a 'Study Group'?
 
