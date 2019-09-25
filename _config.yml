@@ -3,9 +3,9 @@
 
 
 #Step 1: give your study group a name and a short description:
-title: ETCOM
-description: "Building Computational Community in Ethiopia"
-url: https://etcom.github.io
+title: ETENERGY
+description: "Building Energy Community in Ethiopia"
+url: https://etenergey.github.io
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
 
@@ -19,8 +19,8 @@ url: https://etcom.github.io
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome to Ethiopian Computational Community!"
-headlineMain: "Let's Build a Vibrant Compuatioanl Community in Ethiopia"
+headlineSmall: "Welcome to Ethiopian Energy Community!"
+headlineMain: "Let's Build a Vibrant Energy Research Community in Ethiopia"
 
 # Setup Google Calendar
 # Usage:
