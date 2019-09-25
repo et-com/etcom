@@ -2,49 +2,25 @@
   affiliation: Addis Ababa University
   github: mesfind
   interests:
-    - Data Science 
+    - Redox Flow battries
 
-- name: Dagim Yoseph
+- name: Yedilfana Setarge(PhD)
   affiliation: AAU
-  github: dagimy
-  interests:
-    - Economics 
-    
-- name: Berhanu Bekele
-  affiliation: Addis Ababa University
-  github: BerhanuBekele 
-  interests:
-    - Geodesy
-    
-- name: Birbiraw Derese
-  affiliation: Addis Ababa University
   github:
   interests:
-    - Geodesy
+    - Feul Cell
     
-- name: Mesay Geletu
-  affiliation: Arbamich University
-  github: mesay
-  interests:
-    - Geophysics
-- name: Habtamu Wagaw
-  affiliation: AAST University
-  github: habtamuwa
-  interests:
-    - Geophysics
-  
-- name: Birhanu Abera
-  affiliation: Addis Ababa University
-  github: BirhanuAbera
-  interests:
-    - Sesimology
-        
-- name: Yedilfana Setarge
+- name: Girum Ayalineh(PhD)
   affiliation: Addis Ababa University
   github: 
   interests:
-    - Energy Storage
+    - Material Science
     
+- name: Woldegebriel(PhD)
+  affiliation: Addis Ababa University
+  github:
+  interests:
+
 - name: Natei Ermias
   affiliation: Addis Ababa University
   github: 
@@ -56,16 +32,3 @@
   github: 
   interests:
     - Energy Storage
-
-- name: Ephrem Tesfaye
-  affiliation: Addis Ababa University
-  github: 
-  interests:
-    - Space Physics
-    
-- name: Alemyehu Mengesha
-  affiliation: Addis Ababa University
-  github: 
-  interests:
-    - Space Science 
-
